@@ -67,6 +67,14 @@ export interface TeamMember {
   bio: string;
 }
 
+export interface GalleryItem {
+  id: string;
+  title: string;
+  description?: string;
+  imageUrl: string;
+  category?: string;
+}
+
 export interface HeroContent {
   title: {
     main: string;
@@ -92,6 +100,10 @@ export interface SectionContent {
     learnMoreButton: string;
   };
   services: {
+    title: string;
+    subtitle: string;
+  };
+  gallery: {
     title: string;
     subtitle: string;
   };
@@ -139,6 +151,7 @@ export interface SiteConfig {
   hero: HeroContent;
   services: Service[];
   equipment: Equipment[];
+  gallery: GalleryItem[];
   portfolio: PortfolioItem[];
   team: TeamMember[];
   stats: Array<{

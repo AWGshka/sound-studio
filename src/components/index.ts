@@ -6,6 +6,7 @@ export { Card } from "./Card";
 export { Contact } from "./Contact";
 // Layout components
 export { Footer } from "./Footer";
+export { Gallery } from "./Gallery";
 export { Header } from "./Header";
 export { Hero } from "./Hero";
 export { Portfolio } from "./Portfolio";

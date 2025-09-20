@@ -39,8 +39,7 @@ export const siteConfig: SiteConfig = {
       main: "Профессиональная",
       highlight: "звукозапись",
     },
-    subtitle:
-      "Создаем музыку мирового уровня в Краснодаре. Запись, сведение, мастеринг — все для вашего успеха в музыкальной индустрии.",
+    subtitle: "Создаем музыку мирового уровня в Краснодаре. Запись, сведение, мастеринг — все для вашего успеха в музыкальной индустрии.",
     buttons: {
       primary: "Записаться",
       secondary: "Наши работы",
@@ -68,129 +67,69 @@ export const siteConfig: SiteConfig = {
     {
       id: "vocal-recording",
       name: "Запись вокала",
-      description:
-        "Профессиональная запись вокала в акустически обработанной студии с использованием топового оборудования Neumann U87 и Avalon VT-737sp.",
+      description: "Профессиональная запись вокала в акустически обработанной студии с использованием топового оборудования Neumann U87 и Avalon VT-737sp.",
       price: { from: 3000, currency: "₽" },
       icon: "Mic",
-      features: [
-        "Акустически обработанная кабина",
-        "Микрофоны Neumann U87, AKG C414",
-        "Предусилители Avalon, Neve",
-        "Мониторинг на Genelec 8040A",
-      ],
+      features: ["Акустически обработанная кабина", "Микрофоны Neumann U87, AKG C414", "Предусилители Avalon, Neve", "Мониторинг на Genelec 8040A"],
     },
     {
       id: "instrument-recording",
       name: "Запись инструментов",
-      description:
-        "Качественная запись любых музыкальных инструментов: электро и акустические гитары, бас-гитара, барабаны, клавишные.",
+      description: "Качественная запись любых музыкальных инструментов: электро и акустические гитары, бас-гитара, барабаны, клавишные.",
       price: { from: 2500, currency: "₽" },
       icon: "Guitar",
-      features: [
-        "Комплект микрофонов для барабанов",
-        "DI-боксы Radial, Countryman",
-        "Гитарные усилители Marshall, Fender",
-        "Акустические инструменты",
-      ],
+      features: ["Комплект микрофонов для барабанов", "DI-боксы Radial, Countryman", "Гитарные усилители Marshall, Fender", "Акустические инструменты"],
     },
     {
       id: "mixing",
       name: "Сведение",
-      description:
-        "Профессиональное сведение ваших треков. Балансировка инструментов, обработка эффектами, создание глубины и пространства.",
+      description: "Профессиональное сведение ваших треков. Балансировка инструментов, обработка эффектами, создание глубины и пространства.",
       price: { from: 5000, currency: "₽" },
       icon: "Sliders",
-      features: [
-        "Работа в Pro Tools HDX",
-        "Плагины Waves, Universal Audio",
-        "Аналоговые процессоры SSL, Neve",
-        "Референс на различных мониторах",
-      ],
+      features: ["Работа в Pro Tools HDX", "Плагины Waves, Universal Audio", "Аналоговые процессоры SSL, Neve", "Референс на различных мониторах"],
     },
     {
       id: "mastering",
       name: "Мастеринг",
-      description:
-        "Финальная обработка трека для всех платформ. Оптимизация громкости, динамики и частотного баланса для стриминговых сервисов.",
+      description: "Финальная обработка трека для всех платформ. Оптимизация громкости, динамики и частотного баланса для стриминговых сервисов.",
       price: { from: 2000, currency: "₽" },
       icon: "Sparkles",
-      features: [
-        "Мастеринг для стриминга",
-        "Подготовка для винила",
-        "Анализ LUFS и динамического диапазона",
-        "Несколько версий для разных платформ",
-      ],
+      features: ["Мастеринг для стриминга", "Подготовка для винила", "Анализ LUFS и динамического диапазона", "Несколько версий для разных платформ"],
     },
     {
       id: "arrangement",
       name: "Аранжировка",
-      description:
-        "Создание полноценной аранжировки из вашей идеи. Добавление инструментов, гармоний, ритмических партий и оркестровки.",
+      description: "Создание полноценной аранжировки из вашей идеи. Добавление инструментов, гармоний, ритмических партий и оркестровки.",
       price: { from: 8000, currency: "₽" },
       icon: "FileMusic",
-      features: [
-        "Работа с живыми инструментами",
-        "MIDI-программирование",
-        "Оркестровые аранжировки",
-        "Современные и классические стили",
-      ],
+      features: ["Работа с живыми инструментами", "MIDI-программирование", "Оркестровые аранжировки", "Современные и классические стили"],
     },
     {
       id: "production",
       name: "Продакшн",
-      description:
-        "Полный цикл создания трека от идеи до готового релиза. Композиция, аранжировка, запись, сведение, мастеринг.",
+      description: "Полный цикл создания трека от идеи до готового релиза. Композиция, аранжировка, запись, сведение, мастеринг.",
       price: { from: 15000, currency: "₽" },
       icon: "Music",
-      features: [
-        "Полный цикл производства",
-        "Работа с артистом",
-        "Креативная поддержка",
-        "Готовый к релизу результат",
-      ],
+      features: ["Полный цикл производства", "Работа с артистом", "Креативная поддержка", "Готовый к релизу результат"],
     },
   ],
 
   equipment: [
     {
       category: "Микрофоны",
-      items: [
-        "Neumann U87 Ai",
-        "Neumann TLM 103",
-        "AKG C414 XLS",
-        "Shure SM57/58",
-        "Royer R-121",
-        "Coles 4038",
-      ],
+      items: ["Neumann U87 Ai", "Neumann TLM 103", "AKG C414 XLS", "Shure SM57/58", "Royer R-121", "Coles 4038"],
     },
     {
       category: "Предусилители",
-      items: [
-        "Avalon VT-737sp",
-        "Neve 1073",
-        "API 512c",
-        "Universal Audio 610",
-        "SSL VHD Pre",
-      ],
+      items: ["Avalon VT-737sp", "Neve 1073", "API 512c", "Universal Audio 610", "SSL VHD Pre"],
     },
     {
       category: "Мониторы",
-      items: [
-        "Genelec 8040A",
-        "Yamaha NS-10M",
-        "Auratone 5C",
-        "Beyerdynamic DT 770",
-      ],
+      items: ["Genelec 8040A", "Yamaha NS-10M", "Auratone 5C", "Beyerdynamic DT 770"],
     },
     {
       category: "DAW и процессоры",
-      items: [
-        "Pro Tools HDX",
-        "Logic Pro X",
-        "Universal Audio Apollo",
-        "Waves Mercury Bundle",
-        "FabFilter Pro Bundle",
-      ],
+      items: ["Pro Tools HDX", "Logic Pro X", "Universal Audio Apollo", "Waves Mercury Bundle", "FabFilter Pro Bundle"],
     },
   ],
 
@@ -254,6 +193,39 @@ export const siteConfig: SiteConfig = {
     },
   ],
 
+  gallery: [
+    {
+      id: "studio-1",
+      title: "Главная студия",
+      description: "Основная комната для записи с акустической обработкой",
+      imageUrl: "/images/studio/studio-1.jpg",
+    },
+    {
+      id: "studio-2",
+      title: "Вокальная кабина",
+      description: "Изолированная кабина для записи вокала",
+      imageUrl: "/images/studio/studio-2.jpg",
+    },
+    {
+      id: "equipment-1",
+      title: "Микрофоны Neumann",
+      description: "Коллекция профессиональных микрофонов",
+      imageUrl: "/images/studio/studio-3.jpg",
+    },
+    {
+      id: "equipment-2",
+      title: "Пульт SSL",
+      description: "Аналоговый микшерный пульт SSL",
+      imageUrl: "/images/studio/studio-4.jpg",
+    },
+    {
+      id: "equipment-3",
+      title: "Мониторы Genelec",
+      description: "Студийные мониторы для точного контроля",
+      imageUrl: "/images/studio/studio-5.jpg",
+    },
+  ],
+
   team: [
     {
       id: "pasha-tehnik",
@@ -299,6 +271,10 @@ export const siteConfig: SiteConfig = {
     services: {
       title: "Наши услуги",
       subtitle: "Полный спектр услуг для создания профессиональной музыки",
+    },
+    gallery: {
+      title: "Студия изнутри",
+      subtitle: "Посмотрите на наше профессиональное оборудование и рабочий процесс",
     },
     portfolio: {
       title: "Наши работы",

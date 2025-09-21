@@ -12,11 +12,11 @@ export const Team = () => {
         <p className="text-xl text-white/80 max-w-3xl mx-auto">{sections.team.subtitle}</p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="flex flex-wrap justify-center gap-8 max-w-6xl mx-auto">
         {team.map((member, index) => (
           <Card
             key={member.id}
-            className="p-8 text-center group transform hover:scale-105 transition-all duration-300 hover:shadow-2xl relative"
+            className="p-8 text-center group transform hover:scale-105 transition-all duration-300 hover:shadow-2xl relative w-full sm:w-80 flex-shrink-0"
             style={{ animationDelay: `${index * 200}ms` }}>
             <div className="w-32 h-32 bg-black/60 rounded-full mx-auto mb-6 flex items-center justify-center group-hover:bg-black/80 transition-all duration-300 transform group-hover:rotate-6 backdrop-blur-sm border border-white/25 overflow-hidden">
               <img src={member.photo} alt={member.name} className="w-full h-full object-cover" />

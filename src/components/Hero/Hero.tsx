@@ -5,7 +5,7 @@ import { siteConfig } from "@/config/site";
 import { DynamicIcon } from "@/utils";
 
 export const Hero = () => {
-  const { hero } = siteConfig;
+  const { hero, studio } = siteConfig;
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -14,18 +14,21 @@ export const Hero = () => {
     }
   };
 
+  const openTelegram = () => {
+    window.open(studio.contact.url, "_blank");
+  };
+
   return (
     <section id="home" className="pt-20 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-              {hero.title.main}
-              <span className="block text-white animate-pulse">{hero.title.highlight}</span>
+              {hero.title.main} <span className="animate-pulse">{hero.title.highlight}</span>
             </h1>
             <p className="text-md md:text-xl mb-8 text-white/80">{hero.subtitle}</p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" onClick={() => scrollToSection("contact")} className="transform hover:scale-105 transition-transform duration-200">
+              <Button size="lg" onClick={openTelegram} className="transform hover:scale-105 transition-transform duration-200">
                 {hero.buttons.primary}
               </Button>
               <Button
@@ -43,14 +46,14 @@ export const Hero = () => {
                 {hero.features.map((feature, index) => (
                   <div
                     key={feature.title}
-                    className="flex items-center space-x-4 group hover:bg-black/30 rounded-lg p-3 transition-all duration-200"
+                    className="flex items-start space-x-4 group hover:bg-black/30 rounded-lg p-3 transition-all duration-200"
                     style={{ animationDelay: `${index * 200}ms` }}>
-                    <div className="w-12 h-12 bg-black/60 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-200 backdrop-blur-sm border border-white/25">
-                      <DynamicIcon name={feature.icon as any} className="w-6 h-6 text-white" />
+                    <div className="w-12 h-12 bg-black/60 rounded-full flex items-center justify-center transition-colors duration-200 backdrop-blur-sm border border-white/25 group-hover:bg-black/70 flex-shrink-0">
+                      <DynamicIcon name={feature.icon as any} className="w-6 h-6 text-white flex-shrink-0" />
                     </div>
-                    <div>
+                    <div className="flex-1 min-w-0">
                       <h3 className="font-semibold text-white group-hover:text-white/90 transition-colors duration-200">{feature.title}</h3>
-                      <p className="text-white/80 group-hover:text-white/70 transition-colors duration-200">{feature.description}</p>
+                      <p className="text-white/80 group-hover:text-white/70 transition-colors duration-200 text-sm leading-relaxed">{feature.description}</p>
                     </div>
                   </div>
                 ))}

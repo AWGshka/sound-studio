@@ -1,0 +1,843 @@
+{
+  "entries": [
+    {
+      "type": "score",
+      "value": {
+        "ratingAction": {
+          "description": "Рейтинг — это среднее арифметическое оценок пользователей.",
+          "link": { "title": "Подробнее", "url": "https://support.avito.ru/articles/1092" },
+          "title": "Написать отзыв",
+          "uri": "/user/review?fid=2_gkUlySQ2BRdC5rY5DRdX9g%3D%3D"
+        },
+        "ratingStat": [
+          { "count": 30, "score": 5, "title": "30" },
+          { "count": 0, "score": 4, "title": "0" },
+          { "count": 0, "score": 3, "title": "0" },
+          { "count": 0, "score": 2, "title": "0" },
+          { "count": 0, "score": 1, "title": "0" }
+        ],
+        "reviewCount": 30,
+        "score": 5,
+        "scoreFloat": 5,
+        "subtitle": "на основании 30 оценок",
+        "title": "Отличный продавец"
+      }
+    },
+    {
+      "type": "searchParametersV2",
+      "value": {
+        "blocks": [
+          {
+            "sort": {
+              "analyticsParamName": "reviews_sort",
+              "options": [
+                { "label": "Сначала новые", "value": "date_desc" },
+                { "label": "Сначала старые", "value": "date_asc" },
+                { "label": "Сначала положительные", "value": "score_desc" },
+                { "label": "Сначала отрицательные", "value": "score_asc" }
+              ],
+              "paramName": "sortRating",
+              "selectedOption": "date_desc"
+            }
+          },
+          { "inlineBoolFilter": { "analyticsParamName": "reviews_filter_photo", "label": "Только с фото", "paramName": "photoOnly", "selected": false } }
+        ],
+        "requiredFilters": ["sortRating", "photoOnly"]
+      }
+    },
+    {
+      "type": "rating",
+      "value": {
+        "avatar": {
+          "100x100": "https://70.img.avito.st/image/1/1.fcDbFba2xymltxsqrVQsvzy20SNlftLjbLbT.A1nhGarXVvFWKdlOimCdPljTLowf64ApCjsaofjsbo4",
+          "1024x1024": "https://70.img.avito.st/image/1/1.fcDbFbazxyntplM7rVQsvzy20ylltA.uPLxItPv0KofLwipcXVBeSr3fiTa8MusFEzmfjLnEhU",
+          "128x128": "https://70.img.avito.st/image/1/1.fcDbFba2xynttFMprVQsvzy20SNlNtGrb7bT.Ar22qWz4iUDF27PqUe5UiECZn30nb1IOpBnAime-hS4",
+          "132x132": "https://70.img.avito.st/image/1/1.fcDbFba2xynltFsprVQsvzy20SNlPtGjb7bT.RQ5oYbHJjbfLEb2AMMXymx5V43VLccwb0vscgsdZ6ao",
+          "176x176": "https://70.img.avito.st/image/1/1.fcDbFba2xymNtDMprVQsvzy20SNlVtHLb7bT.g-CceweLk4fLTOP7KREJuzuAKn5C7P6SdeOG9BcN6DU",
+          "192x192": "https://70.img.avito.st/image/1/1.fcDbFba2xynttVMorVQsvzy20SNlNtCrbrbT.vqZXwTQ7qYYCbneR_aoF29PLl3dn2zkKYxQHL8-gIvI",
+          "256x256": "https://70.img.avito.st/image/1/1.fcDbFba2xyntslMvrVQsvzy20SNlNterabbT.7Y-hjA8vNgfbxbL9aO2fUWvFxb2xBoro-w9wPpRlPB0",
+          "25x25": "https://70.img.avito.st/image/1/1.fcDbFbayxylfhBPJkiKCK2--2xlfttM.Ce_R8OprlZQrFAlqxU5hyU_OsvdQdYZCoOq0v7Hw-kY",
+          "50x50": "https://70.img.avito.st/image/1/1.fcDbFbayxykJ0hPJkiKCK2--208JttM.GdJoc1dFWinExCxMuy33OCgSNPUEBYpGcEyFApZXxXE",
+          "64x64": "https://70.img.avito.st/image/1/1.fcDbFba2xyntt1MqrVQsvzy20SNlNtKrbLbT.Oop8QgF4_xvIUgFxQ_KFETNWSN-ZwHbTD1GJ0rl4218",
+          "96x96": "https://70.img.avito.st/image/1/1.fcDbFba2xymttxMqrVQsvzy20SNldtLrbLbT.TmH613jQckWe2DVGmdfYDjF1aqQVa9WCY9x_NHjHSOs"
+        },
+        "id": 361581078,
+        "itemTitle": "Студия звукозаписи",
+        "rated": "10 сентября",
+        "score": 5,
+        "stageTitle": "Сделка состоялась",
+        "textSections": [
+          {
+            "text": "Замечательная студия звукозаписи с ребятами,знающими свое ремесло. Я отлично провел время и получил качественную запись.цена не кусается.рекомендую"
+          }
+        ],
+        "title": "Mister Green",
+        "titleCaption": "Клиент"
+      }
+    },
+    {
+      "type": "rating",
+      "value": {
+        "avatar": {
+          "128x128": "https://static.avito.ru/stub_avatars/N/3_128x128.png",
+          "192x192": "https://static.avito.ru/stub_avatars/N/3_192x192.png",
+          "24x24": "https://static.avito.ru/stub_avatars/N/3_24x24.png",
+          "256x256": "https://static.avito.ru/stub_avatars/N/3_256x256.png",
+          "36x36": "https://static.avito.ru/stub_avatars/N/3_36x36.png",
+          "48x48": "https://static.avito.ru/stub_avatars/N/3_48x48.png",
+          "64x64": "https://static.avito.ru/stub_avatars/N/3_64x64.png",
+          "72x72": "https://static.avito.ru/stub_avatars/N/3_72x72.png",
+          "96x96": "https://static.avito.ru/stub_avatars/N/3_96x96.png"
+        },
+        "id": 354807718,
+        "itemTitle": "Студия звукозаписи",
+        "rated": "18 августа",
+        "score": 5,
+        "stageTitle": "Сделка состоялась",
+        "textSections": [{ "text": "Всё было отлично, спасибо Евгению 👍" }],
+        "title": "Namenami",
+        "titleCaption": "Клиент"
+      }
+    },
+    {
+      "type": "rating",
+      "value": {
+        "avatar": {
+          "100x100": "https://10.img.avito.st/image/1/1.HbXQu7a2p1yuGXtf5t8koQIYsVZu0LKWZxiz.zimK0y6bpdtHcDgA0ZB4g5WTKOsVOMEzd2VZYQnnq34?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "1024x1024": "https://10.img.avito.st/image/1/1.HbXQu7azp1zmCDNO5t8koQIYs1xuGg.EBJ5w6zgbBc6m8AMrVtxOHz1-08VK6gI2kFCVvfaIpU?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "128x128": "https://10.img.avito.st/image/1/1.HbXQu7a2p1zmGjNc5t8koQIYsVZumLHeZBiz.rXFSS_252NIEDafxYXp0P2riY2Rx7JZc7pleMCwvU9k?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "132x132": "https://10.img.avito.st/image/1/1.HbXQu7a2p1zuGjtc5t8koQIYsVZukLHWZBiz.jpkkHKiQiehkoux1qo74u2Kf2cId70-hn2wc52Sdopw?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "176x176": "https://10.img.avito.st/image/1/1.HbXQu7a2p1yGGlNc5t8koQIYsVZu-LG-ZBiz.ufI5BJXCEIJ3JMaKv0Im7HdyGCz6K0JjulQNBzPucQU?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "192x192": "https://10.img.avito.st/image/1/1.HbXQu7a2p1zmGzNd5t8koQIYsVZumLDeZRiz.5lh3W8GX-Yn-ZBiywgUWzY6llE1l8l6DaOVk3LtKt0Q?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "256x256": "https://10.img.avito.st/image/1/1.HbXQu7a2p1zmHDNa5t8koQIYsVZumLfeYhiz.c9G44S0MDFWnS_gBwL5NfDba4YofJoFj5vqxjVtsZJM?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "25x25": "https://10.img.avito.st/image/1/1.HbXQu7ayp1xUKjOZ8efXXmQQu2xUGLM.j1OCobr2eYdUy7VP5gUlSE-rsVqM67bAzka1O8jw8So?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "50x50": "https://10.img.avito.st/image/1/1.HbXQu7ayp1wCfDOZ8efXXmQQuzoCGLM.aIg-v25JhvFvt0cbZM8aestQLQUjuchVXfkD6VpzmF4?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "64x64": "https://10.img.avito.st/image/1/1.HbXQu7a2p1zmGTNf5t8koQIYsVZumLLeZxiz.p8bVO3kzw7R1uLWGNqniL7TTJPdtXAQZiDqEDf4jbpg?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "96x96": "https://10.img.avito.st/image/1/1.HbXQu7a2p1ymGXNf5t8koQIYsVZu2LKeZxiz.qbvqU2t1DFXVztrwwBLIOjlgd36lF4Lu-mess3M8FWI?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q=="
+        },
+        "id": 350733334,
+        "itemTitle": null,
+        "rated": "3 августа",
+        "score": 5,
+        "stageTitle": "Сделка состоялась",
+        "textSections": [{ "text": "Всё на высоте, быстро оформил - быстро забрал, рекомендую!" }],
+        "title": "kid going be depressed",
+        "titleCaption": "Продавец"
+      }
+    },
+    {
+      "type": "rating",
+      "value": {
+        "avatar": {
+          "128x128": "https://static.avito.ru/stub_avatars/G/3_128x128.png",
+          "192x192": "https://static.avito.ru/stub_avatars/G/3_192x192.png",
+          "24x24": "https://static.avito.ru/stub_avatars/G/3_24x24.png",
+          "256x256": "https://static.avito.ru/stub_avatars/G/3_256x256.png",
+          "36x36": "https://static.avito.ru/stub_avatars/G/3_36x36.png",
+          "48x48": "https://static.avito.ru/stub_avatars/G/3_48x48.png",
+          "64x64": "https://static.avito.ru/stub_avatars/G/3_64x64.png",
+          "72x72": "https://static.avito.ru/stub_avatars/G/3_72x72.png",
+          "96x96": "https://static.avito.ru/stub_avatars/G/3_96x96.png"
+        },
+        "id": 323034454,
+        "itemTitle": "1-к. квартира, 31,7 м², 2 кровати",
+        "rated": "24 апреля",
+        "score": 5,
+        "stageTitle": "Проживание состоялось",
+        "textSections": [{ "text": "Все отлично" }],
+        "title": "g21gЧlЗ7З8 ckugka beз ABuTo",
+        "titleCaption": "Арендодатель"
+      }
+    },
+    {
+      "type": "rating",
+      "value": {
+        "avatar": {
+          "100x100": "https://90.img.avito.st/image/1/1.teWpsra1DwzXENMPz-zN3acTGwwXGdMP1xAbDg.K4HSFfgSWZpKMVlMdcNn8Ne0y-taLPggroD_iO1lj-g",
+          "1024x1024": "https://90.img.avito.st/image/1/1.teWpsrayDwyfAZsez-zN3acTGw4dGRk.9ohE4S-l11uHsXpxRvwym8aWNbGEnCI2CMhCIn3FznI",
+          "128x128": "https://90.img.avito.st/image/1/1.teWpsra1DwyfE5sMz-zN3acTGwwXGZsMnxMbDg.-hPjxUNYtBVGiIaiXh5Z3yLouq88xg3UBemrT9IsEXc",
+          "132x132": "https://90.img.avito.st/image/1/1.teWpsra1DwyXE5MMz-zN3acTGwwXGZMMlxMbDg.WJOaw12xxTxGWWvXRXlX8ngvaEtfgVAGjwVkAJ-NUgM",
+          "176x176": "https://90.img.avito.st/image/1/1.teWpsra1Dwz_E_sMz-zN3acTGwwXGfsM_xMbDg.T5XtVvZ9dJbD_f70UtiQ4fC4GOw3s57fXzFmkn9pnkg",
+          "192x192": "https://90.img.avito.st/image/1/1.teWpsra1DwyfEpsNz-zN3acTGwwXGZsNnxIbDg.wEjxEwMoaIHHtGZ8MtIcueVyu8DdeHcr0b2FSwlgKO0",
+          "256x256": "https://90.img.avito.st/image/1/1.teWpsra1DwyfFZsKz-zN3acTGwwXGZsKnxUbDg.clk7ykq8vxUbOR-eSqdmgp3nzziwqSBXAdbT8Zwnsps",
+          "25x25": "https://90.img.avito.st/image/1/1.teWpsraxDwwtI8vzycKjDB8TEwYtIxsO.deV-bY0fcbmnX3N82i62VhbWdY0i2AsWNzU2b285JPg",
+          "50x50": "https://90.img.avito.st/image/1/1.teWpsraxDwx7dcvzycKjDB8TEwZ7dRsO.n35axVl2zK0MFgWhmUNZ4dy3DFYg529vM_U2Fns0pLc",
+          "64x64": "https://90.img.avito.st/image/1/1.teWpsra1DwyfEJsPz-zN3acTGwwXGZsPnxAbDg.chRdttdO7nQ66AR8mykGZolC7OS2MFJSjabcfDH3UAw",
+          "96x96": "https://90.img.avito.st/image/1/1.teWpsra1DwzfENsPz-zN3acTGwwXGdsP3xAbDg.JPClu-Qf8uexiIp7ptIv88i426jw_ha_KA0K3VhtlQU"
+        },
+        "id": 306068774,
+        "itemTitle": "Обучение сведению и мастерингу",
+        "rated": "27 февраля",
+        "score": 5,
+        "stageTitle": "Сделка состоялась",
+        "textSections": [{ "text": "Толковый молодой человек, получил именно то что хотел." }],
+        "title": "Константин",
+        "titleCaption": "Клиент"
+      }
+    },
+    {
+      "type": "rating",
+      "value": {
+        "answer": {
+          "answerId": 64967558,
+          "answered": "19 декабря 2024",
+          "avatar": {
+            "100x100": "https://80.img.avito.st/image/1/1.F_AuULa1rRlQ8nEaDDA8k13yuRmQ-3EaUPK5Gw.2MtSE5gDYqMfsG6zHM68-fO1Evt-25In1vbCmXt_xIw",
+            "1024x1024": "https://80.img.avito.st/image/1/1.F_AuULayrRkY4zkLDDA8k13yuRua-7s.VQMDDjHz3bQLkIJ1nDLCoXTGdYlBEMffxmICZZgEVVI",
+            "128x128": "https://80.img.avito.st/image/1/1.F_AuULa1rRkY8TkZDDA8k13yuRmQ-zkZGPG5Gw.Rs0tvyI2_vmpJbozyk4k5-hAcuTpo0sxvS6I2W-3LGs",
+            "132x132": "https://80.img.avito.st/image/1/1.F_AuULa1rRkQ8TEZDDA8k13yuRmQ-zEZEPG5Gw.qUVeR8mfVqxz5REuYzItapjstvAgScHFzy_AViovWKY",
+            "176x176": "https://80.img.avito.st/image/1/1.F_AuULa1rRl48VkZDDA8k13yuRmQ-1kZePG5Gw.Ip93B-J8L1EE5kWmfqxpixUOdJWT9tjSyfBZE4myfBs",
+            "192x192": "https://80.img.avito.st/image/1/1.F_AuULa1rRkY8DkYDDA8k13yuRmQ-zkYGPC5Gw.zYyYNAEzVvfN3kkJmLkALeoZshRDWnX48EmGEvL1ZNg",
+            "256x256": "https://80.img.avito.st/image/1/1.F_AuULa1rRkY9zkfDDA8k13yuRmQ-zkfGPe5Gw.c3ijRowip_Nvx4KttBt8HYj8ybjeXem9LUs_ZPEkIsM",
+            "25x25": "https://80.img.avito.st/image/1/1.F_AuULaxrRmqwS3YHXt8GpjxsROqwbkb.PJ24DBUJrDHyf24RawH0B8oiGvZ8NfX4hy_zY-kCreE",
+            "50x50": "https://80.img.avito.st/image/1/1.F_AuULaxrRn8ly3YHXt8GpjxsRP8l7kb.1yfFvXH4taMjD5egjOsgU_1LzdBGtertp9bviCR9qfw",
+            "64x64": "https://80.img.avito.st/image/1/1.F_AuULa1rRkY8jkaDDA8k13yuRmQ-zkaGPK5Gw.pzqEzR7ntMHWTVbjJLVvU3tfjpRLLb587v5MQmJhvFg",
+            "96x96": "https://80.img.avito.st/image/1/1.F_AuULa1rRlY8nkaDDA8k13yuRmQ-3kaWPK5Gw.2xjficnBKQWpUG5PLXWj9g64zGNwwoF5frYVL-XNUnE"
+          },
+          "link": "https://www.avito.ru/brands/i302384150?src=ratings",
+          "text": "Спасибо !",
+          "title": "FLACKO LOCKO RECORDS"
+        },
+        "avatar": {
+          "100x100": "https://90.img.avito.st/image/1/1.c8MpgLa2ySpXIhUpQ7Ez8-Aj3yCX69zgniPd.wSXSSBb_1H6XKw2KjN_KZzaFnxT3a_FjZqbfQAZvgjQ",
+          "1024x1024": "https://90.img.avito.st/image/1/1.c8MpgLazySofM104Q7Ez8-Aj3SqXIQ.f0qipdIT7xcbm-V2zSUEXnBMTUyNxaQU9B2MwHtMNeU",
+          "128x128": "https://90.img.avito.st/image/1/1.c8MpgLa2ySofIV0qQ7Ez8-Aj3yCXo9-onSPd.xzDpAYBjl85xgJRo0RhpmyJfPHw_7UfrJcCBgk4dh2E",
+          "132x132": "https://90.img.avito.st/image/1/1.c8MpgLa2ySoXIVUqQ7Ez8-Aj3yCXq9-gnSPd.IBpugupiSaw9hh1J5VNSMCexTH7Fj7VFlJrHFFBDVDU",
+          "176x176": "https://90.img.avito.st/image/1/1.c8MpgLa2ySp_IT0qQ7Ez8-Aj3yCXw9_InSPd.pAiC0halx9S1tyiYHRB3AzI95DnfJyd3STTGYRhB8pI",
+          "192x192": "https://90.img.avito.st/image/1/1.c8MpgLa2ySofIF0rQ7Ez8-Aj3yCXo96onCPd.nixY3JyobC1IPH00681vbMDGSNDoPl7R3n_2oZzXNIk",
+          "256x256": "https://90.img.avito.st/image/1/1.c8MpgLa2ySofJ10sQ7Ez8-Aj3yCXo9momyPd.0fhdnOIZReC_pxy6ehjFgcWJ3uyz7tDFIDS6kvR_2y8",
+          "25x25": "https://90.img.avito.st/image/1/1.c8MpgLayySqtEQG6cfiiKJ0r1RqtI90.2DJ--jnPFpFVZ8SWNglD_R15nxCO7cNfP7gJ3Aie7XY",
+          "50x50": "https://90.img.avito.st/image/1/1.c8MpgLayySr7RwG6cfiiKJ0r1Uz7I90.QR_RzfXruUIZU0-oCX6y-aTja5Ie9zvBg1l8Rzj6vOc",
+          "64x64": "https://90.img.avito.st/image/1/1.c8MpgLa2ySofIl0pQ7Ez8-Aj3yCXo9yoniPd.vVIiDdq1Y7JIkMQGpM-mnA38BHkb4rY3WRYs8amH8cQ",
+          "96x96": "https://90.img.avito.st/image/1/1.c8MpgLa2ySpfIh0pQ7Ez8-Aj3yCX49zoniPd.bXmC-h8rX03ui-2fdUtY1MXWxDfDpT1PoOtLjgnZnL8"
+        },
+        "id": 285898822,
+        "images": [
+          {
+            "1280x960": "https://20.img.avito.st/image/1/1.NC4Iz7a5Mpq87I5Fsb5RB0LDmMW6aphFquyVxbp6nMU.spOsyC9zLGwbPp1mSY-4GRyr2vZ0oQgxnfjQhmuXMX4?cqp=2.ZTpOdDGMwjQ9FxykYYx1emcExdwnB4QJTJ3gQLJr84nkJsv0XyRRJhYQ4iKI_UhK0gA=",
+            "180x135": "https://20.img.avito.st/image/1/1.NC4Iz7a5Mpq8hJhLvL5RB0LDmMW6apgtvOKYxbp6nMU.dkHCVW_vGidJb7Ao6ecTvNefnlGURcdGOrJ2JqiVEQ8?cqp=2.ZTpOdDGMwjQ9FxykYYx1emcExdwnB4QJTJ3gQLJr84nkJsv0XyRRJhYQ4iKI_UhK0gA=",
+            "256x192": "https://20.img.avito.st/image/1/1.NC4Iz7a5Mpq87J5Fvb5RB0LDmMW6aphFuuyZxbp6nMU.xfBaeKuhgtk2uulFPqjBcnf00GSlrCazSclutt5vWqk?cqp=2.ZTpOdDGMwjQ9FxykYYx1emcExdwnB4QJTJ3gQLJr84nkJsv0XyRRJhYQ4iKI_UhK0gA=",
+            "640x480": "https://20.img.avito.st/image/1/1.NC4Iz7a5Mpq87JAFub5RB0LDmMW6aphFtKydxbp6nMU.PGc3S1Ui_4JTFsqVSHTZCs8zJ1B2RMpQz_RQMYt13jw?cqp=2.ZTpOdDGMwjQ9FxykYYx1emcExdwnB4QJTJ3gQLJr84nkJsv0XyRRJhYQ4iKI_UhK0gA=",
+            "originalSize": { "width": 1280, "height": 576 }
+          }
+        ],
+        "itemTitle": "Студия звукозаписи",
+        "rated": "19 декабря 2024",
+        "score": 5,
+        "stageTitle": "Сделка состоялась",
+        "textSections": [
+          { "text": "Все супер, записали вокал для пары песен, я доволен. Микрофон крутой, ребята отличные, рядом с домом, цена приемлемая! Придем ещё!" }
+        ],
+        "title": "КБ Конструктор",
+        "titleCaption": "Клиент"
+      }
+    },
+    {
+      "type": "rating",
+      "value": {
+        "avatar": {
+          "100x100": "https://40.img.avito.st/image/1/1.4mOc17a1WIridYSJ1JyQT591TIoifISJ4nVMiA.h1MVtja4k5pVF5NN7LCnnWwRRHGIJxBC4WXlW4vtn0M",
+          "1024x1024": "https://40.img.avito.st/image/1/1.4mOc17ayWIqqZMyY1JyQT591TIgofE4.xoXHIkngNUmpF0YTanq6hUFIh34fxKaJ74aq8nvwneU",
+          "128x128": "https://40.img.avito.st/image/1/1.4mOc17a1WIqqdsyK1JyQT591TIoifMyKqnZMiA.u7m8p8UsUQ1mHhTstd_dQVJYYC6h1vMfod4i_tcbBQI",
+          "132x132": "https://40.img.avito.st/image/1/1.4mOc17a1WIqidsSK1JyQT591TIoifMSKonZMiA.vHB_tYO-ThsK164zOvlZ6qNejREqHnFeAMXsgKrcFvg",
+          "176x176": "https://40.img.avito.st/image/1/1.4mOc17a1WIrKdqyK1JyQT591TIoifKyKynZMiA.xLYIhvHTIZ4ZoevHqnTdFXoRZlxPAkFi36Eq7Pm06TU",
+          "192x192": "https://40.img.avito.st/image/1/1.4mOc17a1WIqqd8yL1JyQT591TIoifMyLqndMiA.aw7DfhyV0qaMMm6QlAQCXlKmhL6rnF3Es3voK78nEMc",
+          "256x256": "https://40.img.avito.st/image/1/1.4mOc17a1WIqqcMyM1JyQT591TIoifMyMqnBMiA.15UX0hnMSN5YfWumJpy5_M6Dc15WmlNK6rtKgAb3xcQ",
+          "25x25": "https://40.img.avito.st/image/1/1.4mOc17axWIoYRrJg9rP5iSp2RIAYRkyI.6OclAR8d3qPzK21tS9coFrd-6H6o0nP_eVw-k2OIB4I",
+          "50x50": "https://40.img.avito.st/image/1/1.4mOc17axWIpOELJg9rP5iSp2RIBOEEyI.OzISP2kdE3iy41tx8i07XW22xWcH6RDqBEwxsWJ2_Q0",
+          "64x64": "https://40.img.avito.st/image/1/1.4mOc17a1WIqqdcyJ1JyQT591TIoifMyJqnVMiA.Yu7zd1MycyNfu-TziiVkfgd_rBGEISfhS-SLIlT_MVo",
+          "96x96": "https://40.img.avito.st/image/1/1.4mOc17a1WIrqdYyJ1JyQT591TIoifIyJ6nVMiA.2Dv4B07-QtiqvWH10IsdXuiCLeuElXYz1HaEPnR56xM"
+        },
+        "id": 284045510,
+        "itemTitle": "Студия звукозаписи",
+        "rated": "13 декабря 2024",
+        "score": 5,
+        "stageTitle": "Сделка состоялась",
+        "textSections": [
+          {
+            "text": "Студия очень атмосферная, хорошее оборудование, и самые лучше звукари Краснодара. \nМне помогли раскрепоститься у микрофона, очень грамотные парни знающие свое дело 💯🎙️"
+          }
+        ],
+        "title": "Иван Заболотный",
+        "titleCaption": "Клиент"
+      }
+    },
+    {
+      "type": "rating",
+      "value": {
+        "avatar": {
+          "128x128": "https://static.avito.ru/stub_avatars/%D0%A1/15_128x128.png",
+          "192x192": "https://static.avito.ru/stub_avatars/%D0%A1/15_192x192.png",
+          "24x24": "https://static.avito.ru/stub_avatars/%D0%A1/15_24x24.png",
+          "256x256": "https://static.avito.ru/stub_avatars/%D0%A1/15_256x256.png",
+          "36x36": "https://static.avito.ru/stub_avatars/%D0%A1/15_36x36.png",
+          "48x48": "https://static.avito.ru/stub_avatars/%D0%A1/15_48x48.png",
+          "64x64": "https://static.avito.ru/stub_avatars/%D0%A1/15_64x64.png",
+          "72x72": "https://static.avito.ru/stub_avatars/%D0%A1/15_72x72.png",
+          "96x96": "https://static.avito.ru/stub_avatars/%D0%A1/15_96x96.png"
+        },
+        "id": 282760246,
+        "itemTitle": "Студия звукозаписи",
+        "rated": "9 декабря 2024",
+        "score": 5,
+        "stageTitle": "Сделка состоялась",
+        "textSections": [
+          { "text": "Потрясающе качественный звук. Однозначно, на студии решает человеческий фактор. Юрий, звукарь, просто боженька. Я в восторге 😁🤗😍😝" }
+        ],
+        "title": "Сергей Маслов",
+        "titleCaption": "Клиент"
+      }
+    },
+    {
+      "type": "rating",
+      "value": {
+        "avatar": {
+          "128x128": "https://static.avito.ru/stub_avatars/%D0%9C/0_128x128.png",
+          "192x192": "https://static.avito.ru/stub_avatars/%D0%9C/0_192x192.png",
+          "24x24": "https://static.avito.ru/stub_avatars/%D0%9C/0_24x24.png",
+          "256x256": "https://static.avito.ru/stub_avatars/%D0%9C/0_256x256.png",
+          "36x36": "https://static.avito.ru/stub_avatars/%D0%9C/0_36x36.png",
+          "48x48": "https://static.avito.ru/stub_avatars/%D0%9C/0_48x48.png",
+          "64x64": "https://static.avito.ru/stub_avatars/%D0%9C/0_64x64.png",
+          "72x72": "https://static.avito.ru/stub_avatars/%D0%9C/0_72x72.png",
+          "96x96": "https://static.avito.ru/stub_avatars/%D0%9C/0_96x96.png"
+        },
+        "id": 262052070,
+        "itemTitle": "Студия звукозаписи",
+        "rated": "2 октября 2024",
+        "score": 5,
+        "stageTitle": "Сделка состоялась",
+        "textSections": [{ "text": "лучшая сту в краснодаре, лучший звукарь, самое лучшее времяпровождения, лучшая работа и результат!" }],
+        "title": "Михаил",
+        "titleCaption": "Клиент"
+      }
+    },
+    {
+      "type": "rating",
+      "value": {
+        "avatar": {
+          "128x128": "https://static.avito.ru/stub_avatars/%D0%9D/4_128x128.png",
+          "192x192": "https://static.avito.ru/stub_avatars/%D0%9D/4_192x192.png",
+          "24x24": "https://static.avito.ru/stub_avatars/%D0%9D/4_24x24.png",
+          "256x256": "https://static.avito.ru/stub_avatars/%D0%9D/4_256x256.png",
+          "36x36": "https://static.avito.ru/stub_avatars/%D0%9D/4_36x36.png",
+          "48x48": "https://static.avito.ru/stub_avatars/%D0%9D/4_48x48.png",
+          "64x64": "https://static.avito.ru/stub_avatars/%D0%9D/4_64x64.png",
+          "72x72": "https://static.avito.ru/stub_avatars/%D0%9D/4_72x72.png",
+          "96x96": "https://static.avito.ru/stub_avatars/%D0%9D/4_96x96.png"
+        },
+        "id": 252316630,
+        "itemTitle": "Студия звукозаписи",
+        "rated": "28 августа 2024",
+        "score": 5,
+        "stageTitle": "Сделка состоялась",
+        "textSections": [{ "text": "Отличная студия звукозаписи, с профессиональным звукарём. Записались отлично" }],
+        "title": "Никита",
+        "titleCaption": "Клиент"
+      }
+    },
+    {
+      "type": "rating",
+      "value": {
+        "avatar": {
+          "100x100": "https://20.img.avito.st/image/1/1.g-zTbra1OQWtzOUG2RiX-r7PLQVtxeUGrcwtBw.tH212YlwjIG9WzEY1134nUUy-kPALKyUIQvDKavgn7g?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "1024x1024": "https://20.img.avito.st/image/1/1.g-zTbrayOQXl3a0X2RiX-r7PLQdnxS8.lMUmxsFUv8oMF3DmiGj16v7BQjyqe2p3scx_XSaXN94?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "128x128": "https://20.img.avito.st/image/1/1.g-zTbra1OQXlz60F2RiX-r7PLQVtxa0F5c8tBw.ZDEhy3WpaqyKDr8RN67s6SbgsSpU5cg1irFtFhMGltc?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "132x132": "https://20.img.avito.st/image/1/1.g-zTbra1OQXtz6UF2RiX-r7PLQVtxaUF7c8tBw.iOyCX4r7XgdZTaIM01DcOQvlhHYVO73ch6722BrusDs?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "176x176": "https://20.img.avito.st/image/1/1.g-zTbra1OQWFz80F2RiX-r7PLQVtxc0Fhc8tBw.S2qfJPazVWyha2IS_E3IjikQrGFCANiaSrynCnPBrGg?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "192x192": "https://20.img.avito.st/image/1/1.g-zTbra1OQXlzq0E2RiX-r7PLQVtxa0E5c4tBw.E33uTYj17pX9g4XNtn7vR0oxHergcNOhklGPW-n8k60?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "256x256": "https://20.img.avito.st/image/1/1.g-zTbra1OQXlya0D2RiX-r7PLQVtxa0D5cktBw.jbnrMw7av2ZahYoiQVfLFsWb3yyzQFLilIRN_WAzxcI?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "25x25": "https://20.img.avito.st/image/1/1.g-zTbraxOQVX_5HS3zD2BWXPJQ9X_y0H.KUtsaPsj6EQl7kDJ1cR-4SYN3tLp9ll4_jUjvYiOrFU?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "50x50": "https://20.img.avito.st/image/1/1.g-zTbraxOQUBqZHS3zD2BWXPJQ8BqS0H.XtQfQOJlKyTnXmUgil1o8W4euX0kdMG90L9NcQIFVTY?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "64x64": "https://20.img.avito.st/image/1/1.g-zTbra1OQXlzK0G2RiX-r7PLQVtxa0G5cwtBw.HdBJnekH7LMzFyg5ORuLBmK65sGrJAn5MOU-rV7r81U?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "96x96": "https://20.img.avito.st/image/1/1.g-zTbra1OQWlzO0G2RiX-r7PLQVtxe0GpcwtBw.aVNLXwlD8htoaISjNqC2uNNfjgn4kwf7tYhuTyv6TWw?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q=="
+        },
+        "id": 247487526,
+        "images": [
+          {
+            "1280x960": "https://90.img.avito.st/image/1/1.VELu4La5UvZaw-4pV9FUMpmd-6lcRfgpTMP1qVxV_Kk.zHsK3ochMsK0bGw9e1TtTIXVyh1hCpDmxiBRw5tdBvE",
+            "180x135": "https://90.img.avito.st/image/1/1.VELu4La5UvZaq_gnWtFUMpmd-6lcRfhBWs34qVxV_Kk.XvPtVJvP9BgDNi9YCGgDe8f0HBhYzuizwa1hIGUHqWw",
+            "256x192": "https://90.img.avito.st/image/1/1.VELu4La5UvZaw_4pW9FUMpmd-6lcRfgpXMP5qVxV_Kk.jx0EgBJ-XH3EnpAMsh2ktbFXfQRryVZ-lwwDjBsfaD4",
+            "640x480": "https://90.img.avito.st/image/1/1.VELu4La5UvZaw_BpX9FUMpmd-6lcRfgpUoP9qVxV_Kk.p_otLx5NXMBJN9BmPyS9RsxI31FdP4E2gOCuQDroBN4",
+            "originalSize": { "width": 720, "height": 960 }
+          }
+        ],
+        "itemTitle": "Студия звукозаписи",
+        "rated": "11 августа 2024",
+        "score": 5,
+        "stageTitle": "Сделка состоялась",
+        "textSections": [{ "text": "Наконец нашел то чего не мог найти)\nБиг лав ❤️" }],
+        "title": "ARKANY STORE",
+        "titleCaption": "Клиент"
+      }
+    },
+    {
+      "type": "rating",
+      "value": {
+        "answer": {
+          "answerId": 52071590,
+          "answered": "23 мая 2024",
+          "avatar": {
+            "100x100": "https://80.img.avito.st/image/1/1.F_AuULa1rRlQ8nEaDDA8k13yuRmQ-3EaUPK5Gw.2MtSE5gDYqMfsG6zHM68-fO1Evt-25In1vbCmXt_xIw",
+            "1024x1024": "https://80.img.avito.st/image/1/1.F_AuULayrRkY4zkLDDA8k13yuRua-7s.VQMDDjHz3bQLkIJ1nDLCoXTGdYlBEMffxmICZZgEVVI",
+            "128x128": "https://80.img.avito.st/image/1/1.F_AuULa1rRkY8TkZDDA8k13yuRmQ-zkZGPG5Gw.Rs0tvyI2_vmpJbozyk4k5-hAcuTpo0sxvS6I2W-3LGs",
+            "132x132": "https://80.img.avito.st/image/1/1.F_AuULa1rRkQ8TEZDDA8k13yuRmQ-zEZEPG5Gw.qUVeR8mfVqxz5REuYzItapjstvAgScHFzy_AViovWKY",
+            "176x176": "https://80.img.avito.st/image/1/1.F_AuULa1rRl48VkZDDA8k13yuRmQ-1kZePG5Gw.Ip93B-J8L1EE5kWmfqxpixUOdJWT9tjSyfBZE4myfBs",
+            "192x192": "https://80.img.avito.st/image/1/1.F_AuULa1rRkY8DkYDDA8k13yuRmQ-zkYGPC5Gw.zYyYNAEzVvfN3kkJmLkALeoZshRDWnX48EmGEvL1ZNg",
+            "256x256": "https://80.img.avito.st/image/1/1.F_AuULa1rRkY9zkfDDA8k13yuRmQ-zkfGPe5Gw.c3ijRowip_Nvx4KttBt8HYj8ybjeXem9LUs_ZPEkIsM",
+            "25x25": "https://80.img.avito.st/image/1/1.F_AuULaxrRmqwS3YHXt8GpjxsROqwbkb.PJ24DBUJrDHyf24RawH0B8oiGvZ8NfX4hy_zY-kCreE",
+            "50x50": "https://80.img.avito.st/image/1/1.F_AuULaxrRn8ly3YHXt8GpjxsRP8l7kb.1yfFvXH4taMjD5egjOsgU_1LzdBGtertp9bviCR9qfw",
+            "64x64": "https://80.img.avito.st/image/1/1.F_AuULa1rRkY8jkaDDA8k13yuRmQ-zkaGPK5Gw.pzqEzR7ntMHWTVbjJLVvU3tfjpRLLb587v5MQmJhvFg",
+            "96x96": "https://80.img.avito.st/image/1/1.F_AuULa1rRlY8nkaDDA8k13yuRmQ-3kaWPK5Gw.2xjficnBKQWpUG5PLXWj9g64zGNwwoF5frYVL-XNUnE"
+          },
+          "link": "https://www.avito.ru/brands/i302384150?src=ratings",
+          "text": "Спасибо за отзыв 🤝❤️",
+          "title": "FLACKO LOCKO RECORDS"
+        },
+        "avatar": {
+          "128x128": "https://static.avito.ru/stub_avatars/%D0%A1/11_128x128.png",
+          "192x192": "https://static.avito.ru/stub_avatars/%D0%A1/11_192x192.png",
+          "24x24": "https://static.avito.ru/stub_avatars/%D0%A1/11_24x24.png",
+          "256x256": "https://static.avito.ru/stub_avatars/%D0%A1/11_256x256.png",
+          "36x36": "https://static.avito.ru/stub_avatars/%D0%A1/11_36x36.png",
+          "48x48": "https://static.avito.ru/stub_avatars/%D0%A1/11_48x48.png",
+          "64x64": "https://static.avito.ru/stub_avatars/%D0%A1/11_64x64.png",
+          "72x72": "https://static.avito.ru/stub_avatars/%D0%A1/11_72x72.png",
+          "96x96": "https://static.avito.ru/stub_avatars/%D0%A1/11_96x96.png"
+        },
+        "id": 227476278,
+        "itemTitle": "Студия звукозаписи",
+        "rated": "23 мая 2024",
+        "score": 5,
+        "stageTitle": "Сделка состоялась",
+        "textSections": [
+          { "text": "Ребята на студии очень общительные и профессиональные. Сделали все качественно. Это точно лучшая студия в Краснодаре по моему мнению." }
+        ],
+        "title": "Саша Малышев",
+        "titleCaption": "Клиент"
+      }
+    },
+    {
+      "type": "rating",
+      "value": {
+        "avatar": {
+          "100x100": "https://00.img.avito.st/image/1/1.WlJcI7a24LsigTy4ZFZIT7eA9rHiSPVx64D0.UEBlCtX87s-oPCvyykRIO1qDhno9cqUElsXKlkDdbY4?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "1024x1024": "https://00.img.avito.st/image/1/1.WlJcI7az4LtqkHSpZFZIT7eA9Lvigg.pfd4JBfUANLpPeks6zZriZ34J_BCTFM7obTgnHiN_Jc?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "128x128": "https://00.img.avito.st/image/1/1.WlJcI7a24LtqgnS7ZFZIT7eA9rHiAPY56ID0.Qv5OdWgH7ChNuetphjlpE8s2ZwxYYwMvnfyoOG6TbgA?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "132x132": "https://00.img.avito.st/image/1/1.WlJcI7a24Ltigny7ZFZIT7eA9rHiCPYx6ID0.EZv1NtRMxMUGI1x5qitRERTOk_GBMUMe9ysXbocMYOo?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "176x176": "https://00.img.avito.st/image/1/1.WlJcI7a24LsKghS7ZFZIT7eA9rHiYPZZ6ID0.uj9OTX0LYPGxQ50xe1yXu764vPrB1HzEx251ay9cTxA?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "192x192": "https://00.img.avito.st/image/1/1.WlJcI7a24Ltqg3S6ZFZIT7eA9rHiAPc56YD0.075KDHbtwPMZ7qKmO4KWu-yXtwd9P4Xn5F_J1AhGZhg?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "256x256": "https://00.img.avito.st/image/1/1.WlJcI7a24LtqhHS9ZFZIT7eA9rHiAPA57oD0.D6Kp7cp9pGmpsRphFDIyuhveKNjpVqucNiR6o_u74tc?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "25x25": "https://00.img.avito.st/image/1/1.WlJcI7ay4LvYsnpvVnapueiI_IvYgPQ.sG6lT5jjJZPNcdHSZc-kj6xW1hKA6FhavlBIwSOJ5jQ?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "50x50": "https://00.img.avito.st/image/1/1.WlJcI7ay4LuO5HpvVnapueiI_N2OgPQ.Dh92tN2BGJx8blv0hXtRd3-e4MZKnbqO_6BEHuZti5U?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "64x64": "https://00.img.avito.st/image/1/1.WlJcI7a24LtqgXS4ZFZIT7eA9rHiAPU564D0.q-9_4fPZj0kHs7Ct4gjunNgxJYUgZG80slB5F_ogpQU?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "96x96": "https://00.img.avito.st/image/1/1.WlJcI7a24LsqgTS4ZFZIT7eA9rHiQPV564D0.IHL0t4PCb3qHuPYROis50tJCy7j2QvzQKMD96KcyVJg?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q=="
+        },
+        "id": 226408166,
+        "itemTitle": "Студия звукозаписи",
+        "rated": "18 мая 2024",
+        "score": 5,
+        "stageTitle": "Сделка состоялась",
+        "textSections": [{ "text": "Хорошая работа,  добросовестное общение. Все довольны, отличное исполнение нашего заказа!!! Приятно сотрудничать:)" }],
+        "title": "Мария Конкина",
+        "titleCaption": "Клиент"
+      }
+    },
+    {
+      "type": "rating",
+      "value": {
+        "avatar": {
+          "100x100": "https://00.img.avito.st/image/1/1.N7P-Ira2jVqAgFFZnGYxnTyBm1BASZiQSYGZ.A-9y5P3_9Fqp58Ic7B-I53eoUIHMckRN-wc2s21nzx4?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "1024x1024": "https://00.img.avito.st/image/1/1.N7P-IrazjVrIkRlInGYxnTyBmVpAgw.U2vcZJhXvGJ0ZB2G1peDqHpZ8Pzl2gKc1DSbYBkXXF0?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "128x128": "https://00.img.avito.st/image/1/1.N7P-Ira2jVrIgxlanGYxnTyBm1BAAZvYSoGZ.Rpp_urfBKj9qDW_e79aC_4rm2Rr6dYE5JQJp4G6nQmw?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "132x132": "https://00.img.avito.st/image/1/1.N7P-Ira2jVrAgxFanGYxnTyBm1BACZvQSoGZ.ZbQFxh2i65hMJZfw5BSBVK4TmaVrppT8fsJJopsZyRg?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "176x176": "https://00.img.avito.st/image/1/1.N7P-Ira2jVqog3lanGYxnTyBm1BAYZu4SoGZ.0j8U1YYBXktm-O_tmU2SGkcqHL8RahxAsJWnmgdhNC0?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "192x192": "https://00.img.avito.st/image/1/1.N7P-Ira2jVrIghlbnGYxnTyBm1BAAZrYS4GZ.A33mUT1rF_pfSvnhZJZ6Lxl475vqvrgZYozaqxujAsE?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "256x256": "https://00.img.avito.st/image/1/1.N7P-Ira2jVrIhRlcnGYxnTyBm1BAAZ3YTIGZ.jdhGMbesgMizN0jos7XYjRq_UluZO7bOSEjAM5NBJaQ?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "25x25": "https://00.img.avito.st/image/1/1.N7P-IrayjVp6s02_4ETtWEqJkWp6gZk.f4eZTVItME-C6oSSzoSqvPAOe5Uwpmk4nCbdQgJQ_V8?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "50x50": "https://00.img.avito.st/image/1/1.N7P-IrayjVos5U2_4ETtWEqJkTwsgZk.pAzEB9iaMir8pu4iGj5MTBxDdofYC1qOucEmd3PxuME?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "64x64": "https://00.img.avito.st/image/1/1.N7P-Ira2jVrIgBlZnGYxnTyBm1BAAZjYSYGZ.fFEjjebXbwzCWUKhnecnHKQmJtmpRdn4-_5rGMKw7lk?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "96x96": "https://00.img.avito.st/image/1/1.N7P-Ira2jVqIgFlZnGYxnTyBm1BAQZiYSYGZ.wVrOj5y_N7h85pNI8TfT45_VAnofioflFCl27TxA21Q?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q=="
+        },
+        "id": 221588790,
+        "itemTitle": "Студия звукозаписи",
+        "rated": "6 мая 2024",
+        "score": 5,
+        "stageTitle": "Сделка состоялась",
+        "textSections": [{ "text": "Хорошая студия. Быстро ответили и забронировали место." }],
+        "title": "Максим",
+        "titleCaption": "Клиент"
+      }
+    },
+    {
+      "type": "rating",
+      "value": {
+        "avatar": {
+          "100x100": "https://20.img.avito.st/image/1/1.pBC2tra1HvnIFML68uC1Y7wUCvkIHcL6yBQK-w.r9IuSUkk6zM2l949oIwnyohz9jLKPxkodcOM8lRxKhc?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "1024x1024": "https://20.img.avito.st/image/1/1.pBC2trayHvmABYrr8uC1Y7wUCvsCHQg.FhuLD8wRdEumW5aSGa_4FB98FqmRTjauxovo-2PViZ4?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "128x128": "https://20.img.avito.st/image/1/1.pBC2tra1HvmAF4r58uC1Y7wUCvkIHYr5gBcK-w.bePv_IeAQCUpUZGI1HH9d1xKhwaj4aowEoe20I6vxgY?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "132x132": "https://20.img.avito.st/image/1/1.pBC2tra1HvmIF4L58uC1Y7wUCvkIHYL5iBcK-w.XINf98Dd3JHBFWgPyzJtAfifCzH97JCo_4DcgOmY0bc?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "176x176": "https://20.img.avito.st/image/1/1.pBC2tra1HvngF-r58uC1Y7wUCvkIHer54BcK-w.CobHTZ7N2LYVnNdDhAs6ew0qbBMnk_rnSYUxlHZy4HE?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "192x192": "https://20.img.avito.st/image/1/1.pBC2tra1HvmAFor48uC1Y7wUCvkIHYr4gBYK-w.eDnl4fAZqNG597fAgq8voWlYnGy0ZEBWg-N0r9jX-w0?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "256x256": "https://20.img.avito.st/image/1/1.pBC2tra1HvmAEYr_8uC1Y7wUCvkIHYr_gBEK-w.08Qz9d0vweaQv9SeleSsqhtbq05nB7SmyCbe0M1IZyc?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "25x25": "https://20.img.avito.st/image/1/1.pBC2traxHvkyJ_gOv422-gAXAvMyJwr7.xcHMn24KRynI4LmIcqkQX9oOqi-I5253ij--OK6Xf0c?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "50x50": "https://20.img.avito.st/image/1/1.pBC2traxHvlkcfgOv422-gAXAvNkcQr7.nFhDRFEq-yJ66T5-k3VZqbThCJTEcTpmpf8adNsWaKI?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "64x64": "https://20.img.avito.st/image/1/1.pBC2tra1HvmAFIr68uC1Y7wUCvkIHYr6gBQK-w.GGOFA4OpZceqHsbIymc-dvPkzuZKUuDzoQ4Z_1c3pI4?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "96x96": "https://20.img.avito.st/image/1/1.pBC2tra1HvnAFMr68uC1Y7wUCvkIHcr6wBQK-w.LlwVT9BTmGQ8EUqvBuO0v3yG243fprdCevoQRAjY2ok?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q=="
+        },
+        "deliveryTitle": "Заказано с Авито Доставкой",
+        "id": 201604550,
+        "itemTitle": "Звуковая карта Roland rubix24",
+        "rated": "13 февраля 2024",
+        "score": 5,
+        "stageTitle": "Сделка состоялась",
+        "textSections": [{ "text": "Все хорошо, быстро отправил товар, запаковал как надо, пришло в целости" }],
+        "title": "Никита Черникин",
+        "titleCaption": "Покупатель"
+      }
+    },
+    {
+      "type": "rating",
+      "value": {
+        "avatar": {
+          "100x100": "https://10.img.avito.st/image/1/1.OEMtHba1gqpTv16pUXFMTTi_lqqTtl6pU7-WqA.NhL0AVGHRuL-Gk2ZXPnar7PpQFOsw9vg3eEKIpXryfA?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "1024x1024": "https://10.img.avito.st/image/1/1.OEMtHbaygqobrha4UXFMTTi_lqiZtpQ.Op0vMS6RMeHhp5havK5mE9ghIDfRzeQoIiETy8u40No?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "128x128": "https://10.img.avito.st/image/1/1.OEMtHba1gqobvBaqUXFMTTi_lqqTthaqG7yWqA.gAPE3uj3yUe0CcADtTqsXTB6HVw3QC5lsehgH7UaEhg?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "132x132": "https://10.img.avito.st/image/1/1.OEMtHba1gqoTvB6qUXFMTTi_lqqTth6qE7yWqA.oaB5ixrzKO90OJDxcM6yl8pRPtcSZqf-H3a48XuQWFA?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "176x176": "https://10.img.avito.st/image/1/1.OEMtHba1gqp7vHaqUXFMTTi_lqqTtnaqe7yWqA.26CDP2YNSjeBS13q0nbL7Sf1SjAr-c6Ah_Ak3CC0TeE?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "192x192": "https://10.img.avito.st/image/1/1.OEMtHba1gqobvRarUXFMTTi_lqqTtharG72WqA.Hcv5VuMo835ha-xTXFv5dW-mJr8VdFoyLp2ZR6OtqNU?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "256x256": "https://10.img.avito.st/image/1/1.OEMtHba1gqobuhasUXFMTTi_lqqTthasG7qWqA.dVV9KTkZPEls-rdvg4m2sFMv79v3JhbUwpoQAfWK5ww?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "25x25": "https://10.img.avito.st/image/1/1.OEMtHbaxgqqpjFxnQVs1qZu8nqCpjJao.cSQg6zrIg9HwXZz8ddnDYc8MaB8speBlNEAUXBBiVO0?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "50x50": "https://10.img.avito.st/image/1/1.OEMtHbaxgqr_2lxnQVs1qZu8nqD_2pao.9ZAF_mhzOpYhSQ9XdpKQ1WXtpqFFmm-V8qeeCnZZdoo?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "64x64": "https://10.img.avito.st/image/1/1.OEMtHba1gqobvxapUXFMTTi_lqqTthapG7-WqA.QGRe1hKgBciQotjhUyiuLfpv5oWiX3TS7y71zc_jfD4?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q==",
+          "96x96": "https://10.img.avito.st/image/1/1.OEMtHba1gqpbv1apUXFMTTi_lqqTtlapW7-WqA.0BvJNhbjKLRkCDixnbOOK8wsHjrBgaHq_5FhVMzp2FU?cqp=2.pGdjs5fBvl5-fB-fm84xxYDAkt8GM2Wgr1fOyxua9Q=="
+        },
+        "id": 166395254,
+        "itemTitle": "Студия звукозаписи",
+        "rated": "27 сентября 2023",
+        "score": 5,
+        "stageTitle": "Сделка состоялась",
+        "textSections": [{ "text": "Хорошая студия, понравилась работа звукорежессера" }],
+        "title": "Оля Сазанова",
+        "titleCaption": "Клиент"
+      }
+    },
+    {
+      "type": "rating",
+      "value": {
+        "answer": {
+          "answerId": 33593586,
+          "answered": "15 августа 2023",
+          "avatar": {
+            "100x100": "https://80.img.avito.st/image/1/1.F_AuULa1rRlQ8nEaDDA8k13yuRmQ-3EaUPK5Gw.2MtSE5gDYqMfsG6zHM68-fO1Evt-25In1vbCmXt_xIw",
+            "1024x1024": "https://80.img.avito.st/image/1/1.F_AuULayrRkY4zkLDDA8k13yuRua-7s.VQMDDjHz3bQLkIJ1nDLCoXTGdYlBEMffxmICZZgEVVI",
+            "128x128": "https://80.img.avito.st/image/1/1.F_AuULa1rRkY8TkZDDA8k13yuRmQ-zkZGPG5Gw.Rs0tvyI2_vmpJbozyk4k5-hAcuTpo0sxvS6I2W-3LGs",
+            "132x132": "https://80.img.avito.st/image/1/1.F_AuULa1rRkQ8TEZDDA8k13yuRmQ-zEZEPG5Gw.qUVeR8mfVqxz5REuYzItapjstvAgScHFzy_AViovWKY",
+            "176x176": "https://80.img.avito.st/image/1/1.F_AuULa1rRl48VkZDDA8k13yuRmQ-1kZePG5Gw.Ip93B-J8L1EE5kWmfqxpixUOdJWT9tjSyfBZE4myfBs",
+            "192x192": "https://80.img.avito.st/image/1/1.F_AuULa1rRkY8DkYDDA8k13yuRmQ-zkYGPC5Gw.zYyYNAEzVvfN3kkJmLkALeoZshRDWnX48EmGEvL1ZNg",
+            "256x256": "https://80.img.avito.st/image/1/1.F_AuULa1rRkY9zkfDDA8k13yuRmQ-zkfGPe5Gw.c3ijRowip_Nvx4KttBt8HYj8ybjeXem9LUs_ZPEkIsM",
+            "25x25": "https://80.img.avito.st/image/1/1.F_AuULaxrRmqwS3YHXt8GpjxsROqwbkb.PJ24DBUJrDHyf24RawH0B8oiGvZ8NfX4hy_zY-kCreE",
+            "50x50": "https://80.img.avito.st/image/1/1.F_AuULaxrRn8ly3YHXt8GpjxsRP8l7kb.1yfFvXH4taMjD5egjOsgU_1LzdBGtertp9bviCR9qfw",
+            "64x64": "https://80.img.avito.st/image/1/1.F_AuULa1rRkY8jkaDDA8k13yuRmQ-zkaGPK5Gw.pzqEzR7ntMHWTVbjJLVvU3tfjpRLLb587v5MQmJhvFg",
+            "96x96": "https://80.img.avito.st/image/1/1.F_AuULa1rRlY8nkaDDA8k13yuRmQ-3kaWPK5Gw.2xjficnBKQWpUG5PLXWj9g64zGNwwoF5frYVL-XNUnE"
+          },
+          "link": "https://www.avito.ru/brands/i302384150?src=ratings",
+          "text": "Спасибо большое 🙏☺️",
+          "title": "FLACKO LOCKO RECORDS"
+        },
+        "avatar": {
+          "128x128": "https://static.avito.ru/stub_avatars/%D0%92/13_128x128.png",
+          "192x192": "https://static.avito.ru/stub_avatars/%D0%92/13_192x192.png",
+          "24x24": "https://static.avito.ru/stub_avatars/%D0%92/13_24x24.png",
+          "256x256": "https://static.avito.ru/stub_avatars/%D0%92/13_256x256.png",
+          "36x36": "https://static.avito.ru/stub_avatars/%D0%92/13_36x36.png",
+          "48x48": "https://static.avito.ru/stub_avatars/%D0%92/13_48x48.png",
+          "64x64": "https://static.avito.ru/stub_avatars/%D0%92/13_64x64.png",
+          "72x72": "https://static.avito.ru/stub_avatars/%D0%92/13_72x72.png",
+          "96x96": "https://static.avito.ru/stub_avatars/%D0%92/13_96x96.png"
+        },
+        "id": 150232618,
+        "itemTitle": "Студия звукозаписи",
+        "rated": "15 августа 2023",
+        "score": 5,
+        "stageTitle": "Сделка состоялась",
+        "textSections": [{ "text": "Самая лучшая студия, на которой побывали. Атмосфера огонь, Юра тоже! Спасибо за теплый прием." }],
+        "title": "Виктория",
+        "titleCaption": "Клиент"
+      }
+    },
+    {
+      "type": "rating",
+      "value": {
+        "answer": {
+          "answerId": 32570899,
+          "answered": "27 июля 2023",
+          "avatar": {
+            "100x100": "https://80.img.avito.st/image/1/1.F_AuULa1rRlQ8nEaDDA8k13yuRmQ-3EaUPK5Gw.2MtSE5gDYqMfsG6zHM68-fO1Evt-25In1vbCmXt_xIw",
+            "1024x1024": "https://80.img.avito.st/image/1/1.F_AuULayrRkY4zkLDDA8k13yuRua-7s.VQMDDjHz3bQLkIJ1nDLCoXTGdYlBEMffxmICZZgEVVI",
+            "128x128": "https://80.img.avito.st/image/1/1.F_AuULa1rRkY8TkZDDA8k13yuRmQ-zkZGPG5Gw.Rs0tvyI2_vmpJbozyk4k5-hAcuTpo0sxvS6I2W-3LGs",
+            "132x132": "https://80.img.avito.st/image/1/1.F_AuULa1rRkQ8TEZDDA8k13yuRmQ-zEZEPG5Gw.qUVeR8mfVqxz5REuYzItapjstvAgScHFzy_AViovWKY",
+            "176x176": "https://80.img.avito.st/image/1/1.F_AuULa1rRl48VkZDDA8k13yuRmQ-1kZePG5Gw.Ip93B-J8L1EE5kWmfqxpixUOdJWT9tjSyfBZE4myfBs",
+            "192x192": "https://80.img.avito.st/image/1/1.F_AuULa1rRkY8DkYDDA8k13yuRmQ-zkYGPC5Gw.zYyYNAEzVvfN3kkJmLkALeoZshRDWnX48EmGEvL1ZNg",
+            "256x256": "https://80.img.avito.st/image/1/1.F_AuULa1rRkY9zkfDDA8k13yuRmQ-zkfGPe5Gw.c3ijRowip_Nvx4KttBt8HYj8ybjeXem9LUs_ZPEkIsM",
+            "25x25": "https://80.img.avito.st/image/1/1.F_AuULaxrRmqwS3YHXt8GpjxsROqwbkb.PJ24DBUJrDHyf24RawH0B8oiGvZ8NfX4hy_zY-kCreE",
+            "50x50": "https://80.img.avito.st/image/1/1.F_AuULaxrRn8ly3YHXt8GpjxsRP8l7kb.1yfFvXH4taMjD5egjOsgU_1LzdBGtertp9bviCR9qfw",
+            "64x64": "https://80.img.avito.st/image/1/1.F_AuULa1rRkY8jkaDDA8k13yuRmQ-zkaGPK5Gw.pzqEzR7ntMHWTVbjJLVvU3tfjpRLLb587v5MQmJhvFg",
+            "96x96": "https://80.img.avito.st/image/1/1.F_AuULa1rRlY8nkaDDA8k13yuRmQ-3kaWPK5Gw.2xjficnBKQWpUG5PLXWj9g64zGNwwoF5frYVL-XNUnE"
+          },
+          "link": "https://www.avito.ru/brands/i302384150?src=ratings",
+          "text": "Спасибо , очень приятно !❤️",
+          "title": "FLACKO LOCKO RECORDS"
+        },
+        "avatar": {
+          "128x128": "https://static.avito.ru/stub_avatars/%D0%95/3_128x128.png",
+          "192x192": "https://static.avito.ru/stub_avatars/%D0%95/3_192x192.png",
+          "24x24": "https://static.avito.ru/stub_avatars/%D0%95/3_24x24.png",
+          "256x256": "https://static.avito.ru/stub_avatars/%D0%95/3_256x256.png",
+          "36x36": "https://static.avito.ru/stub_avatars/%D0%95/3_36x36.png",
+          "48x48": "https://static.avito.ru/stub_avatars/%D0%95/3_48x48.png",
+          "64x64": "https://static.avito.ru/stub_avatars/%D0%95/3_64x64.png",
+          "72x72": "https://static.avito.ru/stub_avatars/%D0%95/3_72x72.png",
+          "96x96": "https://static.avito.ru/stub_avatars/%D0%95/3_96x96.png"
+        },
+        "id": 146310158,
+        "itemTitle": "Студия звукозаписи",
+        "rated": "27 июля 2023",
+        "score": 5,
+        "stageTitle": "Сделка состоялась",
+        "textSections": [
+          {
+            "text": "Одна из самых комфортных студий звукозаписей. По началу был стресс, т.к первый раз, но ребята работающие на студии помогли быстро влиться в рабочий режим и написать классный трек. Обязательно вернусь еще раз!"
+          }
+        ],
+        "title": "Евгений Староверов",
+        "titleCaption": "Клиент"
+      }
+    },
+    {
+      "type": "rating",
+      "value": {
+        "answer": {
+          "answerId": 32443002,
+          "answered": "25 июля 2023",
+          "avatar": {
+            "100x100": "https://80.img.avito.st/image/1/1.F_AuULa1rRlQ8nEaDDA8k13yuRmQ-3EaUPK5Gw.2MtSE5gDYqMfsG6zHM68-fO1Evt-25In1vbCmXt_xIw",
+            "1024x1024": "https://80.img.avito.st/image/1/1.F_AuULayrRkY4zkLDDA8k13yuRua-7s.VQMDDjHz3bQLkIJ1nDLCoXTGdYlBEMffxmICZZgEVVI",
+            "128x128": "https://80.img.avito.st/image/1/1.F_AuULa1rRkY8TkZDDA8k13yuRmQ-zkZGPG5Gw.Rs0tvyI2_vmpJbozyk4k5-hAcuTpo0sxvS6I2W-3LGs",
+            "132x132": "https://80.img.avito.st/image/1/1.F_AuULa1rRkQ8TEZDDA8k13yuRmQ-zEZEPG5Gw.qUVeR8mfVqxz5REuYzItapjstvAgScHFzy_AViovWKY",
+            "176x176": "https://80.img.avito.st/image/1/1.F_AuULa1rRl48VkZDDA8k13yuRmQ-1kZePG5Gw.Ip93B-J8L1EE5kWmfqxpixUOdJWT9tjSyfBZE4myfBs",
+            "192x192": "https://80.img.avito.st/image/1/1.F_AuULa1rRkY8DkYDDA8k13yuRmQ-zkYGPC5Gw.zYyYNAEzVvfN3kkJmLkALeoZshRDWnX48EmGEvL1ZNg",
+            "256x256": "https://80.img.avito.st/image/1/1.F_AuULa1rRkY9zkfDDA8k13yuRmQ-zkfGPe5Gw.c3ijRowip_Nvx4KttBt8HYj8ybjeXem9LUs_ZPEkIsM",
+            "25x25": "https://80.img.avito.st/image/1/1.F_AuULaxrRmqwS3YHXt8GpjxsROqwbkb.PJ24DBUJrDHyf24RawH0B8oiGvZ8NfX4hy_zY-kCreE",
+            "50x50": "https://80.img.avito.st/image/1/1.F_AuULaxrRn8ly3YHXt8GpjxsRP8l7kb.1yfFvXH4taMjD5egjOsgU_1LzdBGtertp9bviCR9qfw",
+            "64x64": "https://80.img.avito.st/image/1/1.F_AuULa1rRkY8jkaDDA8k13yuRmQ-zkaGPK5Gw.pzqEzR7ntMHWTVbjJLVvU3tfjpRLLb587v5MQmJhvFg",
+            "96x96": "https://80.img.avito.st/image/1/1.F_AuULa1rRlY8nkaDDA8k13yuRmQ-3kaWPK5Gw.2xjficnBKQWpUG5PLXWj9g64zGNwwoF5frYVL-XNUnE"
+          },
+          "link": "https://www.avito.ru/brands/i302384150?src=ratings",
+          "text": "Спасибо 🙏❤️",
+          "title": "FLACKO LOCKO RECORDS"
+        },
+        "avatar": {
+          "100x100": "https://80.img.avito.st/image/1/1.VZXOd7a173yw1TN_6B5MmefV-3xw3DN_sNX7fg.OJPuTF8PvbqY5oyeu7nhkIHMlCZeGcDKnjhuMfxyI-0",
+          "1024x1024": "https://80.img.avito.st/image/1/1.VZXOd7ay73z4xHtu6B5MmefV-3563Pk.jayq3T6tjVjq0WmrAP-3DKE0oCEekjxSjJPgLW0kbEI",
+          "128x128": "https://80.img.avito.st/image/1/1.VZXOd7a173z41nt86B5MmefV-3xw3Ht8-Nb7fg.73vv8u0KIwG9uLOzLl7XlpuOexkI77beiug7GU-KIaY",
+          "132x132": "https://80.img.avito.st/image/1/1.VZXOd7a173zw1nN86B5MmefV-3xw3HN88Nb7fg.wO8GUEFV7VchJvyiW6MHx5xQhpIuUg-zPsY0Dkz707Q",
+          "176x176": "https://80.img.avito.st/image/1/1.VZXOd7a173yY1ht86B5MmefV-3xw3Bt8mNb7fg.N6ioR5ps-HYE6kEshvzepq-ppdKo-cBY4z_rj6i4QdM",
+          "192x192": "https://80.img.avito.st/image/1/1.VZXOd7a173z413t96B5MmefV-3xw3Ht9-Nf7fg.T0IQdJAFKFS476UBa1n25UsQqh4TFlasv1lvTkwk9zA",
+          "256x256": "https://80.img.avito.st/image/1/1.VZXOd7a173z40Ht66B5MmefV-3xw3Ht6-ND7fg.rrTBGh4ulLyjmvuCr5FhPn558DfgKQCVfTjgsT3WG7E",
+          "25x25": "https://80.img.avito.st/image/1/1.VZXOd7ax73xK5mu0zzNkf3jW83ZK5vt-.e2zRpe4JrvtcUmF9_PXVKPWlz3vHMq8-sGG7cKcBk40",
+          "50x50": "https://80.img.avito.st/image/1/1.VZXOd7ax73wcsGu0zzNkf3jW83YcsPt-.00-x8Gr7YB9A6RgXn9hv2_0VZQ0IhdgUvTlEdbfPwWI",
+          "64x64": "https://80.img.avito.st/image/1/1.VZXOd7a173z41Xt_6B5MmefV-3xw3Ht_-NX7fg.XZYvuCbwhzxIbrJA8QZbovZwKqM8gztuPY1nB_vnX3Y",
+          "96x96": "https://80.img.avito.st/image/1/1.VZXOd7a173y41Tt_6B5MmefV-3xw3Dt_uNX7fg.vnRES7Y79pqIzT3vUn834mukf-1sSKE2a-FW_3ywflY"
+        },
+        "id": 145787538,
+        "images": [
+          {
+            "1280x960": "https://20.img.avito.st/image/1/1.irn1fra5jA1BXTDSTHPBstFGJVJH2ybSV10rUkfLIlI._FGbxmPu0l19rmAK7LOpdBvMUiaPG1eb1m8csbiCWx4?cqp=2.ZTpOdDGMwjQ9FxykYYx1emcExdwnB4QJTJ3gQLJr84nkJsv0XyRRJhYQ4iKI_UhK0gA=",
+            "180x135": "https://20.img.avito.st/image/1/1.irn1fra5jA1BNSbcQXPBstFGJVJH2ya6QVMmUkfLIlI.WXnnJQdmk1E_OxJxSYCWL3zjCTDBeLiKEBK0CBH6-9c?cqp=2.ZTpOdDGMwjQ9FxykYYx1emcExdwnB4QJTJ3gQLJr84nkJsv0XyRRJhYQ4iKI_UhK0gA=",
+            "256x192": "https://20.img.avito.st/image/1/1.irn1fra5jA1BXSDSQHPBstFGJVJH2ybSR10nUkfLIlI.G12NmCzlQdsPZmpm7y4nWMDrT0UH90vB5AgQdBfq0jA?cqp=2.ZTpOdDGMwjQ9FxykYYx1emcExdwnB4QJTJ3gQLJr84nkJsv0XyRRJhYQ4iKI_UhK0gA=",
+            "640x480": "https://20.img.avito.st/image/1/1.irn1fra5jA1BXS6SRHPBstFGJVJH2ybSSR0jUkfLIlI.cjMiDknIC_fhAAusDVqG-mWFZGmIfTmWEkbIzQEwITU?cqp=2.ZTpOdDGMwjQ9FxykYYx1emcExdwnB4QJTJ3gQLJr84nkJsv0XyRRJhYQ4iKI_UhK0gA=",
+            "originalSize": { "width": 640, "height": 960 }
+          }
+        ],
+        "itemTitle": "Студия звукозаписи",
+        "rated": "25 июля 2023",
+        "score": 5,
+        "stageTitle": "Сделка состоялась",
+        "textSections": [
+          { "text": "Лучшая студия в Краснодаре , профессионалы своего дела, брали треки под ключ неоднократно, все в лучшем виде и за небольшой прайс!" }
+        ],
+        "title": "Вячеслав",
+        "titleCaption": "Клиент"
+      }
+    },
+    {
+      "type": "rating",
+      "value": {
+        "avatar": {
+          "128x128": "https://static.avito.ru/stub_avatars/%D0%9F/10_128x128.png",
+          "192x192": "https://static.avito.ru/stub_avatars/%D0%9F/10_192x192.png",
+          "24x24": "https://static.avito.ru/stub_avatars/%D0%9F/10_24x24.png",
+          "256x256": "https://static.avito.ru/stub_avatars/%D0%9F/10_256x256.png",
+          "36x36": "https://static.avito.ru/stub_avatars/%D0%9F/10_36x36.png",
+          "48x48": "https://static.avito.ru/stub_avatars/%D0%9F/10_48x48.png",
+          "64x64": "https://static.avito.ru/stub_avatars/%D0%9F/10_64x64.png",
+          "72x72": "https://static.avito.ru/stub_avatars/%D0%9F/10_72x72.png",
+          "96x96": "https://static.avito.ru/stub_avatars/%D0%9F/10_96x96.png"
+        },
+        "id": 138373411,
+        "itemTitle": "Студия звукозаписи",
+        "rated": "20 июня 2023",
+        "score": 5,
+        "stageTitle": "Сделка состоялась",
+        "textSections": [{ "text": "10/10 \nотличное место\nхорошее оборудование\nотличный звукарь \nвсем советую" }],
+        "title": "Подбор Персонала",
+        "titleCaption": "Клиент"
+      }
+    },
+    {
+      "type": "rating",
+      "value": {
+        "avatar": {
+          "100x100": "https://50.img.avito.st/image/1/1.LjOf7La1lNrhTkjZz5wIapxNgNohR0jZ4U6A2A.xpHIicZ5bPeI1PYK7b0Y8SHfo9GbWGmMDs9aU9bvKBI",
+          "1024x1024": "https://50.img.avito.st/image/1/1.LjOf7LaylNqpXwDIz5wIapxNgNgrR4I.uMkF7Nu2n4elTKyeK_xwPZju1P4aH796SlCdpDF-GsE",
+          "128x128": "https://50.img.avito.st/image/1/1.LjOf7La1lNqpTQDaz5wIapxNgNohRwDaqU2A2A.PMyC-ldSOelOzy9RzC-ABcBbNu1Gi1_kt9RrkRBB2b0",
+          "132x132": "https://50.img.avito.st/image/1/1.LjOf7La1lNqhTQjaz5wIapxNgNohRwjaoU2A2A.AQUHbmD3dEsx7Swi6xYKAlR88z5DjBf7o50Xw_xWqiA",
+          "176x176": "https://50.img.avito.st/image/1/1.LjOf7La1lNrJTWDaz5wIapxNgNohR2DayU2A2A.HNAISwHQSXRtAP52luKqEtOb5y4-hj-sJqqEmUlQxV8",
+          "192x192": "https://50.img.avito.st/image/1/1.LjOf7La1lNqpTADbz5wIapxNgNohRwDbqUyA2A.UNJYy4K99aW_LOhETphYtS7To5h4LkyLPQF5hRjqRDM",
+          "256x256": "https://50.img.avito.st/image/1/1.LjOf7La1lNqpSwDcz5wIapxNgNohRwDcqUuA2A.gBBx9CeOQZ_ql1_2-uXgMCKDAtG3Akj7N1KMmUMXj8A",
+          "25x25": "https://50.img.avito.st/image/1/1.LjOf7LaxlNobfWYLof012ilNiNAbfYDY.4nUPrmezYSRjTcwRze_OYAqwMm6ggsBYHmSyjojTvi8",
+          "50x50": "https://50.img.avito.st/image/1/1.LjOf7LaxlNpNK2YLof012ilNiNBNK4DY.eMGTpaQ8b40xcJ2WF897QkikkGKwTSbz3CH3kcI8tvA",
+          "64x64": "https://50.img.avito.st/image/1/1.LjOf7La1lNqpTgDZz5wIapxNgNohRwDZqU6A2A.8E_96yPHmDS9CPNeGK7n1g08OtbPDApO59vqmf7I9_c",
+          "96x96": "https://50.img.avito.st/image/1/1.LjOf7La1lNrpTkDZz5wIapxNgNohR0DZ6U6A2A.mTgj4uFZIsvmZ6ZX_Hkd813LwD8-DeKjsW4-0oXIO_w"
+        },
+        "id": 128744967,
+        "itemTitle": "Студия звукозаписи",
+        "rated": "8 мая 2023",
+        "score": 5,
+        "stageTitle": "Сделка состоялась",
+        "textSections": [{ "text": "Всё очень понравилось большой респект звукорю 👍" }],
+        "title": "Артём Лебедев",
+        "titleCaption": "Клиент"
+      }
+    },
+    {
+      "type": "rating",
+      "value": {
+        "avatar": {
+          "128x128": "https://static.avito.ru/stub_avatars/%D0%90/10_128x128.png",
+          "192x192": "https://static.avito.ru/stub_avatars/%D0%90/10_192x192.png",
+          "24x24": "https://static.avito.ru/stub_avatars/%D0%90/10_24x24.png",
+          "256x256": "https://static.avito.ru/stub_avatars/%D0%90/10_256x256.png",
+          "36x36": "https://static.avito.ru/stub_avatars/%D0%90/10_36x36.png",
+          "48x48": "https://static.avito.ru/stub_avatars/%D0%90/10_48x48.png",
+          "64x64": "https://static.avito.ru/stub_avatars/%D0%90/10_64x64.png",
+          "72x72": "https://static.avito.ru/stub_avatars/%D0%90/10_72x72.png",
+          "96x96": "https://static.avito.ru/stub_avatars/%D0%90/10_96x96.png"
+        },
+        "deliveryTitle": "Заказано с Авито Доставкой",
+        "id": 118435429,
+        "itemTitle": "Soyuz Launcher (Союз)",
+        "rated": "23 марта 2023",
+        "score": 5,
+        "stageTitle": "Сделка состоялась",
+        "textSections": [{ "text": "Все оперативно и точно, продавец дружелюбно ответил на все вопросы. Лаунчер отличного качества! Спасибо! ♥" }],
+        "title": "Анастасия",
+        "titleCaption": "Покупатель"
+      }
+    },
+    {
+      "type": "rating",
+      "value": {
+        "avatar": {
+          "100x100": "https://90.img.avito.st/image/1/1.a9shDra20TJfrA0xey8p5-atxzifZcT4lq3F.wcwsN4SNlYaYzQIjVAHfR3yY3i9Ka5O67KlZKS4f3P0",
+          "1024x1024": "https://90.img.avito.st/image/1/1.a9shDraz0TIXvUUgey8p5-atxTKfrw.GblpKaRqAXIkl_jeRtwWhpAnnRbDRE5Ckb1-LrlAhjg",
+          "128x128": "https://90.img.avito.st/image/1/1.a9shDra20TIXr0Uyey8p5-atxzifLcewla3F.vH1SgrtyGHvGFleHOZ71xZ-pwKCEmtyrULGjbKMol2w",
+          "132x132": "https://90.img.avito.st/image/1/1.a9shDra20TIfr00yey8p5-atxzifJce4la3F.DGFo9Mu75awYjPBlO0SYWNPZyFCGwy-iqpI3Mv2Z8bM",
+          "176x176": "https://90.img.avito.st/image/1/1.a9shDra20TJ3ryUyey8p5-atxzifTcfQla3F.e3tdAwCgDqOTsPXIJ6B7nXbg6yvRRzjxYPlw3OPRkE0",
+          "192x192": "https://90.img.avito.st/image/1/1.a9shDra20TIXrkUzey8p5-atxzifLcawlK3F.f66H7LU0deSilJG1EKhWIAU-rPUPNfLq5bfxDRkMR9M",
+          "256x256": "https://90.img.avito.st/image/1/1.a9shDra20TIXqUU0ey8p5-atxzifLcGwk63F.qxTIot92L-SNNaqIieLkkZ-uIKUWvdvaTXLzpQpCwxo",
+          "25x25": "https://90.img.avito.st/image/1/1.a9shDray0TKlnymye3q0MJWlzQKlrcU.gqH70646k2NGzDFKBmWxtjNQIuzj5EXd2ljxP6kMOac",
+          "50x50": "https://90.img.avito.st/image/1/1.a9shDray0TLzySmye3q0MJWlzVTzrcU.PvKhKBStDTa3ngQgUVsNZRpGPeN3_PuaIf84g_5aXIc",
+          "64x64": "https://90.img.avito.st/image/1/1.a9shDra20TIXrEUxey8p5-atxzifLcSwlq3F.e_0SBfkuxMoZP0DqV3WzfMGc90wDGcfPKJzfUlFrldc",
+          "96x96": "https://90.img.avito.st/image/1/1.a9shDra20TJXrAUxey8p5-atxzifbcTwlq3F.dDcCh8csB4vUTuzNTyXD-JGgphWozZ40sq4M7u_fK18"
+        },
+        "id": 114891734,
+        "itemTitle": "Студия звукозаписи",
+        "rated": "7 марта 2023",
+        "score": 5,
+        "stageTitle": "Сделка состоялась",
+        "textSections": [
+          { "text": "Отличная студия , прекрасная атмосфера , все соответсвует описанию , оборудование высокого качества , всем рекомендую 🔥" }
+        ],
+        "title": "Илья",
+        "titleCaption": "Клиент"
+      }
+    },
+    {
+      "type": "rating",
+      "value": {
+        "avatar": {
+          "100x100": "https://70.img.avito.st/image/1/1.-8NNK7a1QSoziZ0pN2CWo3yJVSrzgJ0pM4lVKA.tpTPb3TR0hYjwPMrIOXW5lJIaV08tMtNg_FQNBF5OVI",
+          "1024x1024": "https://70.img.avito.st/image/1/1.-8NNK7ayQSp7mNU4N2CWo3yJVSj5gFc.iQlzmZEvQT4n-DS783D6XzX5H6-oe53sCubWI37NORo",
+          "128x128": "https://70.img.avito.st/image/1/1.-8NNK7a1QSp7itUqN2CWo3yJVSrzgNUqe4pVKA.RoTx84r4MOFpK2uqEda5l1LgUq6SBmG-4vUj-wVlLBY",
+          "132x132": "https://70.img.avito.st/image/1/1.-8NNK7a1QSpzit0qN2CWo3yJVSrzgN0qc4pVKA.xsnIPXLHzCPhLYglGR_fUpUcDWOwhaXkigaeKw36nb8",
+          "176x176": "https://70.img.avito.st/image/1/1.-8NNK7a1QSobirUqN2CWo3yJVSrzgLUqG4pVKA.L5NOhN7gN5paqikqCWOIVpPQPd5yRZAjPbsgItTUikA",
+          "192x192": "https://70.img.avito.st/image/1/1.-8NNK7a1QSp7i9UrN2CWo3yJVSrzgNUre4tVKA.QOVGGy3oCiqDTbodioL3gwdhURkNAVKSLadxl4lA9rY",
+          "256x256": "https://70.img.avito.st/image/1/1.-8NNK7a1QSp7jNUsN2CWo3yJVSrzgNUse4xVKA.rBxY9D6J6VPwtBWEdfzx97O19WgrNBTk9HXVro5gdhg",
+          "25x25": "https://70.img.avito.st/image/1/1.-8NNK7axQSrJupnAOAPSKfuKXSDJulUo.zU2Pe5UZ02VS9ynok5HkOyUytb6-S0kKMRduglqTmEM",
+          "50x50": "https://70.img.avito.st/image/1/1.-8NNK7axQSqf7JnAOAPSKfuKXSCf7FUo.xKZko5yGYcV-B9HiXhAm6RYJeSSOPGxTXohjA0nAxMM",
+          "64x64": "https://70.img.avito.st/image/1/1.-8NNK7a1QSp7idUpN2CWo3yJVSrzgNUpe4lVKA.V9wyJy74iQ9nDRB55yi3YfflRxAS9oZziLWnmt0nb_c",
+          "96x96": "https://70.img.avito.st/image/1/1.-8NNK7a1QSo7iZUpN2CWo3yJVSrzgJUpO4lVKA.r-QE9d5UBrC3OrdAPpG0YsaIsyCEHkufMiLeb1DhAHQ"
+        },
+        "deliveryTitle": "Заказано с Авито Доставкой",
+        "id": 112147217,
+        "images": [
+          {
+            "1280x960": "https://00.img.avito.st/image/1/1.xJnJJra5wi19BX7ycDfi36UFa3J7g2jyawVlcnuTbHI.ozEkL40SGWVan2UqGCs56d9goNkqYmxRk_VMMcsF3ek?cqp=2.ZTpOdDGMwjQ9FxykYYx1emcExdwnB4QJTJ3gQLJr84nkJsv0XyRRJhYQ4iKI_UhK0gA=",
+            "180x135": "https://00.img.avito.st/image/1/1.xJnJJra5wi19bWj8fTfi36UFa3J7g2iafQtocnuTbHI.OAE_JdtBk72lCIVqdCMyYcY6nToH_E-5F65YmcBYBvM?cqp=2.ZTpOdDGMwjQ9FxykYYx1emcExdwnB4QJTJ3gQLJr84nkJsv0XyRRJhYQ4iKI_UhK0gA=",
+            "256x192": "https://00.img.avito.st/image/1/1.xJnJJra5wi19BW7yfDfi36UFa3J7g2jyewVpcnuTbHI.ySrvCOWYcK6J-HmD-ztMePCTFC9y3LGb1rU5iNYIzTI?cqp=2.ZTpOdDGMwjQ9FxykYYx1emcExdwnB4QJTJ3gQLJr84nkJsv0XyRRJhYQ4iKI_UhK0gA=",
+            "640x480": "https://00.img.avito.st/image/1/1.xJnJJra5wi19BWCyeDfi36UFa3J7g2jydUVtcnuTbHI.bQVU6Hznf1sje_F5vYF4lMWAwkhtgs2NNhRfDxBXMy0?cqp=2.ZTpOdDGMwjQ9FxykYYx1emcExdwnB4QJTJ3gQLJr84nkJsv0XyRRJhYQ4iKI_UhK0gA=",
+            "originalSize": { "width": 720, "height": 960 }
+          }
+        ],
+        "itemTitle": "Студийный микрофон akg p120",
+        "rated": "22 февраля 2023",
+        "score": 5,
+        "stageTitle": "Сделка состоялась",
+        "textSections": [
+          {
+            "text": "Благодарю продавца. Ответил на все вопросы. Отправил оперативно. Подарок пришёл в срок. Качество отличное. Ребёнок доволен. Ждём музыкальных новинок! Рекомендую!"
+          }
+        ],
+        "title": "ИП Ефремова",
+        "titleCaption": "Покупатель"
+      }
+    },
+    {
+      "type": "rating",
+      "value": {
+        "avatar": {
+          "128x128": "https://static.avito.ru/stub_avatars/%D0%AF/6_128x128.png",
+          "192x192": "https://static.avito.ru/stub_avatars/%D0%AF/6_192x192.png",
+          "24x24": "https://static.avito.ru/stub_avatars/%D0%AF/6_24x24.png",
+          "256x256": "https://static.avito.ru/stub_avatars/%D0%AF/6_256x256.png",
+          "36x36": "https://static.avito.ru/stub_avatars/%D0%AF/6_36x36.png",
+          "48x48": "https://static.avito.ru/stub_avatars/%D0%AF/6_48x48.png",
+          "64x64": "https://static.avito.ru/stub_avatars/%D0%AF/6_64x64.png",
+          "72x72": "https://static.avito.ru/stub_avatars/%D0%AF/6_72x72.png",
+          "96x96": "https://static.avito.ru/stub_avatars/%D0%AF/6_96x96.png"
+        },
+        "id": 108538619,
+        "itemTitle": "Студия звукозаписи",
+        "rated": "6 февраля 2023",
+        "score": 5,
+        "stageTitle": "Сделка состоялась",
+        "textSections": [{ "text": "Отличные ребята. Всё хорошо обработали" }],
+        "title": "Яна",
+        "titleCaption": "Клиент"
+      }
+    }
+  ],
+  "nextPage": "/web/6/user/2c1d43a02f026b0ff67265ad3fb52f4b5fdb24390ac5d56a5ad0cd6f32e137f0/ratings?limit=25\u0026offset=25\u0026photoOnly=false\u0026sortRating=date_desc"
+}

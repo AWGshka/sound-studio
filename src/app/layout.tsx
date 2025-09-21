@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: `${siteConfig.studio.name}`,
   description: siteConfig.studio.description,
-  icons: { icon: "/favicon.svg" },
+  icons: { icon: "/favicon.png" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

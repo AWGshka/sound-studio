@@ -10,6 +10,7 @@ export { Gallery } from "./Gallery";
 export { Header } from "./Header";
 export { Hero } from "./Hero";
 export { Portfolio } from "./Portfolio";
+export { Reviews } from "./Reviews";
 export { Section } from "./Section";
 export { Services } from "./Services";
 export { Team } from "./Team";

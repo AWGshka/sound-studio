@@ -1,6 +1,6 @@
 import * as LucideIcons from "lucide-react";
 import type { LucideProps } from "lucide-react";
-import { FaYoutube, FaSoundcloud, FaTelegram, FaSpotify, FaApple } from "react-icons/fa";
+import { FaYoutube, FaSoundcloud, FaTelegram, FaSpotify, FaApple, FaVk } from "react-icons/fa";
 
 export type LucideIconName = keyof typeof LucideIcons;
 
@@ -13,6 +13,7 @@ const YandexMusicIcon = ({ className, ...props }: LucideProps) => (
 
 // Define platform-specific icons
 export const PlatformIcons = {
+  Vk: FaVk,
   Youtube: FaYoutube,
   Soundcloud: FaSoundcloud,
   Telegram: FaTelegram,

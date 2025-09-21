@@ -9,14 +9,16 @@ export interface StudioInfo {
     metro?: string;
   };
   contact: {
-    phone: string;
+    phones: string[];
     email: string;
+    url: string;
     workingHours: {
       weekdays: string;
       weekends: string;
     };
   };
   socialMedia: {
+    vk?: string;
     youtube?: string;
     soundcloud?: string;
     telegram?: string;
@@ -117,18 +119,17 @@ export interface SectionContent {
     title: string;
     subtitle: string;
   };
+  reviews: {
+    title: string;
+    subtitle: string;
+  };
   contact: {
     title: string;
     subtitle: string;
-    form: {
+    telegram: {
       title: string;
-      nameLabel: string;
-      namePlaceholder: string;
-      emailLabel: string;
-      emailPlaceholder: string;
-      messageLabel: string;
-      messagePlaceholder: string;
-      submitButton: string;
+      description: string;
+      buttonText: string;
     };
     info: {
       addressTitle: string;

@@ -17,6 +17,11 @@ export const Header = () => {
     setIsMenuOpen(false);
   };
 
+  const openTelegram = () => {
+    window.open(studio.contact.url, "_blank");
+    setIsMenuOpen(false);
+  };
+
   const navigationItems = [
     { label: "Главная", id: "home" },
     { label: "Услуги", id: "services" },
@@ -56,7 +61,7 @@ export const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button onClick={() => scrollToSection("contact")} size="sm">
+            <Button onClick={openTelegram} size="sm">
               Записаться
             </Button>
           </div>
@@ -84,7 +89,7 @@ export const Header = () => {
                   {item.label}
                 </button>
               ))}
-              <Button onClick={() => scrollToSection("contact")} fullWidth>
+              <Button onClick={openTelegram} fullWidth>
                 Записаться
               </Button>
             </div>

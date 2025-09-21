@@ -2,6 +2,7 @@ import "./globals.css";
 import Script from "next/script";
 import type { Metadata } from "next";
 import { siteConfig } from "@/config/site";
+import { Analytics } from "@vercel/analytics/next";
 import { Geist, Geist_Mono } from "next/font/google";
 
 const geistSans = Geist({
@@ -35,6 +36,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
 
         {/* Content */}
         <div className="relative z-10">{children}</div>
+        <Analytics />
       </body>
     </html>
   );

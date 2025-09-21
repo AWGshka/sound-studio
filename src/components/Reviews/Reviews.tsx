@@ -4,54 +4,11 @@ import { Card } from "@/components/Card";
 import { Section } from "@/components/Section";
 import { siteConfig } from "@/config/site";
 import { DynamicIcon } from "@/utils";
-import { useEffect, useState } from "react";
-
-interface AvitoReview {
-  id: string;
-  author: string;
-  rating: number;
-  comment: string;
-  date: string;
-  avatar?: string;
-}
-
-interface ApiResponse {
-  success: boolean;
-  data: AvitoReview[];
-  total: number;
-  error?: string;
-}
+import { useAvitoReviews } from "@/hooks";
 
 export const Reviews = () => {
   const { sections } = siteConfig;
-  const [reviews, setReviews] = useState<AvitoReview[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-
-  useEffect(() => {
-    const fetchReviews = async () => {
-      try {
-        setLoading(true);
-        setError(null);
-
-        const response = await fetch("/api/reviews");
-        const data: ApiResponse = await response.json();
-
-        if (data.success) {
-          setReviews(data.data);
-        } else {
-          setError(data.error || "Failed to load reviews");
-        }
-      } catch (err) {
-        setError("Network error occurred");
-        console.error("Error fetching reviews:", err);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchReviews();
-  }, []);
+  const { reviews, loading, error } = useAvitoReviews();
 
   const renderStars = (rating: number) => {
     return Array.from({ length: 5 }, (_, index) => (
@@ -106,13 +63,13 @@ export const Reviews = () => {
 
   return (
     <Section id="reviews" padding="lg">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">{sections.reviews?.title || "Отзывы клиентов"}</h2>
           <p className="text-xl text-muted-foreground">{sections.reviews?.subtitle || "Что говорят о нас наши клиенты"}</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {reviews.map((review) => (
             <Card key={review.id} className="p-6 h-full">
               <div className="flex flex-col h-full">

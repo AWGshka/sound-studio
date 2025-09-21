@@ -10,8 +10,8 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="group">
             <div className="flex items-center mb-4 group-hover:scale-105 transition-transform duration-200">
-              <div className="w-10 h-10 bg-black/60 rounded-lg flex items-center justify-center group-hover:bg-black/80 transition-colors duration-200 backdrop-blur-sm border border-white/25">
-                <span className="text-white font-bold text-xl group-hover:text-white/90 transition-colors duration-200">{studio.name.charAt(0)}</span>
+              <div className="w-10 h-10 rounded-lg flex items-center justify-center transition-all duration-200 overflow-hidden">
+                <img src={studio.logo} alt={studio.name} className="w-full h-full object-contain" />
               </div>
               <div className="ml-3">
                 <span className="text-xl font-bold group-hover:text-white/90 transition-colors duration-200">{studio.name}</span>

@@ -189,7 +189,7 @@ export const siteConfig: SiteConfig = {
       genre: "Rap/Hip-Hop",
       services: ["Запись вокала", "Сведение", "Мастеринг"],
       imageUrl: "/images/portfolio/track-4.jpg",
-      releaseDate: "2025",
+      releaseDate: "Aug. 22, 2025",
       audioUrl: "https://music.yandex.ru/album/36529191?utm_source=web&utm_medium=copy_link",
     },
     {
@@ -223,15 +223,21 @@ export const siteConfig: SiteConfig = {
     },
     {
       id: "studio-2",
-      title: "Уголок инструментала",
-      description: "Уголок для записи инструментов",
+      title: "",
+      description: "",
       imageUrl: "/images/studio/studio-2.jpg",
     },
     {
       id: "studio-3",
-      title: "Чилл зона",
-      description: "Чилл зона для отдыха и общения",
+      title: "",
+      description: "",
       imageUrl: "/images/studio/studio-3.jpg",
+    },
+    {
+      id: "studio-4",
+      title: "",
+      description: "",
+      imageUrl: "/images/studio/studio-4.png",
     },
   ],
 

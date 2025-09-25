@@ -3,6 +3,7 @@
 import { Section } from "@/components/Section";
 import { siteConfig } from "@/config/site";
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 
 export const Gallery = () => {
   const { gallery, sections } = siteConfig;
@@ -87,9 +88,14 @@ export const Gallery = () => {
               <div
                 key={`${item.id}-${Math.floor(index / gallery.length)}`}
                 className="flex-shrink-0 w-[400px] h-64 relative group cursor-pointer overflow-hidden rounded-lg bg-black/20 border border-white/20 select-none">
-                <img
+                <Image
                   src={item.imageUrl}
                   alt={item.title}
+                  fill
+                  sizes="(max-width: 640px) 80vw, 400px"
+                  quality={60}
+                  priority={item.id === "studio-3" || index === 0}
+                  fetchPriority={item.id === "studio-3" || index === 0 ? "high" : undefined}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 pointer-events-none"
                   draggable={false}
                 />

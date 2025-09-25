@@ -1,6 +1,7 @@
 import { Card } from "@/components/Card";
 import { Section } from "@/components/Section";
 import { siteConfig } from "@/config/site";
+import Image from "next/image";
 
 export const Team = () => {
   const { team, sections } = siteConfig;
@@ -19,7 +20,7 @@ export const Team = () => {
             className="p-8 text-center group transform hover:scale-105 transition-all duration-300 hover:shadow-2xl relative w-full sm:w-80 flex-shrink-0"
             style={{ animationDelay: `${index * 200}ms` }}>
             <div className="w-32 h-32 bg-black/60 rounded-full mx-auto mb-6 flex items-center justify-center group-hover:bg-black/80 transition-all duration-300 transform group-hover:rotate-6 backdrop-blur-sm border border-white/25 overflow-hidden">
-              <img src={member.photo} alt={member.name} className="w-full h-full object-cover" />
+              <Image src={member.photo} alt={member.name} width={128} height={128} sizes="128px" className="w-full h-full object-cover" />
             </div>
             <h3 className="text-2xl font-bold mb-2 text-white group-hover:text-white/90 transition-colors duration-200">{member.name}</h3>
             <p className="text-white font-semibold mb-2 group-hover:text-white/80 transition-colors duration-200">{member.role}</p>

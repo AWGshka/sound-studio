@@ -4,6 +4,7 @@ import { Button } from "@/components/Button";
 import { Card } from "@/components/Card";
 import { Section } from "@/components/Section";
 import { siteConfig } from "@/config/site";
+import Image from "next/image";
 
 export const Portfolio = () => {
   const { portfolio, sections } = siteConfig;
@@ -19,7 +20,13 @@ export const Portfolio = () => {
         {portfolio.map((item) => (
           <Card key={item.id} className="overflow-hidden">
             <div className="h-48 bg-black/20 flex items-center justify-center relative overflow-hidden">
-              <img src={item.imageUrl} alt={`${item.title} by ${item.artist}`} className="w-full h-full object-cover" />
+              <Image
+                src={item.imageUrl}
+                alt={`${item.title} by ${item.artist}`}
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                className="w-full h-full object-cover"
+              />
               <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
                 <div className="text-white text-center">
                   <div className="text-2xl font-bold">{item.title}</div>

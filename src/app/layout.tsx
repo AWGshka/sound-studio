@@ -16,10 +16,57 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const appUrl = process.env.NEXT_PUBLIC_SITE_URL ?? process.env.VERCEL_PROJECT_PRODUCTION_URL ?? "http://localhost:3000";
+
 export const metadata: Metadata = {
-  title: `${siteConfig.studio.name}`,
+  metadataBase: new URL(appUrl.startsWith("http") ? appUrl : `https://${appUrl}`),
+  title: {
+    default: `${siteConfig.studio.name}`,
+    template: `%s | ${siteConfig.studio.name}`,
+  },
   description: siteConfig.studio.description,
+  applicationName: siteConfig.studio.name,
+  authors: [{ name: siteConfig.studio.name, url: siteConfig.studio.contact.url }],
+  creator: siteConfig.studio.name,
+  publisher: siteConfig.studio.name,
+  keywords: siteConfig.studio.keywords,
   icons: { icon: "/favicon.png" },
+  openGraph: {
+    type: "website",
+    locale: "ru_RU",
+    siteName: siteConfig.studio.name,
+    title: siteConfig.studio.name,
+    description: siteConfig.studio.description,
+    images: [
+      {
+        url: siteConfig.studio.logo,
+        width: 1200,
+        height: 630,
+        alt: siteConfig.studio.name,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteConfig.studio.name,
+    description: siteConfig.studio.description,
+    images: [siteConfig.studio.logo],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+  category: "music",
+  alternates: { canonical: "/" },
+  referrer: "origin-when-cross-origin",
+  verification: { yandex: "0e17ab6acb0c55a3" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

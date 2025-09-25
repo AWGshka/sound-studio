@@ -26,6 +26,7 @@ export interface StudioInfo {
     yandexMusic?: string;
     appleMusic?: string;
   };
+  keywords: string[];
   location: {
     coordinates: [number, number];
     zoom: number;

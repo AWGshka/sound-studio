@@ -1,6 +1,5 @@
 "use client";
 
-import { Button } from "@/components/Button";
 import { Card } from "@/components/Card";
 import { Section } from "@/components/Section";
 import { YandexMap } from "@/components/YandexMap";
@@ -9,7 +8,6 @@ import { DynamicIcon } from "@/utils";
 
 export const Contact = () => {
   const { studio, sections } = siteConfig;
-
   return (
     <Section id="contact" padding="lg">
       <div className="max-w-4xl mx-auto">
@@ -28,9 +26,11 @@ export const Contact = () => {
               <div className="min-w-0">
                 <h4 className="font-semibold mb-2 text-white">{sections.contact.info.addressTitle}</h4>
                 <p className="text-white/80 text-sm leading-relaxed text-nowrap">
-                  {studio.address.street}
-                  <br />
-                  {studio.address.city}
+                  <a href={studio.address.url} target="_blank" rel="noopener noreferrer" className="cursor-pointer hover:text-white transition-colors">
+                    {studio.address.street}
+                    <br />
+                    {studio.address.city}
+                  </a>
                 </p>
               </div>
             </div>

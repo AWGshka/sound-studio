@@ -7,6 +7,7 @@ export interface StudioInfo {
     street: string;
     city: string;
     metro?: string;
+    url: string;
   };
   contact: {
     phones: string[];

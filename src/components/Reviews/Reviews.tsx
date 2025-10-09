@@ -4,11 +4,11 @@ import { Card } from "@/components/Card";
 import { Section } from "@/components/Section";
 import { siteConfig } from "@/config/site";
 import { DynamicIcon } from "@/utils";
-import { useAvitoReviews } from "@/hooks";
+import { useReviews } from "@/hooks";
 
 export const Reviews = () => {
   const { sections } = siteConfig;
-  const { reviews, loading, error } = useAvitoReviews();
+  const { reviews, loading, error } = useReviews();
 
   const renderStars = (rating: number) => {
     return Array.from({ length: 5 }, (_, index) => (
@@ -92,13 +92,13 @@ export const Reviews = () => {
                   <p className="text-white/80 text-sm leading-relaxed">{review.comment}</p>
                 </div>
 
-                {/* Avito badge */}
+                {/* Source badge */}
                 <div className="mt-4 pt-4 border-t border-white/10">
                   <div className="flex items-center space-x-2">
                     <div className="w-6 h-6 bg-white/20 backdrop-blur-sm rounded border border-white/30 flex items-center justify-center">
-                      <span className="text-white text-xs font-bold">A</span>
+                      <span className="text-white text-xs font-bold">{review.source.charAt(0).toUpperCase()}</span>
                     </div>
-                    <span className="text-xs text-white/60">Отзыв с Avito</span>
+                    <span className="text-xs text-white/60">Отзыв с {review.source}</span>
                   </div>
                 </div>
               </div>
@@ -106,14 +106,23 @@ export const Reviews = () => {
           ))}
         </div>
 
-        {/* View all reviews link */}
-        <div className="text-center mt-8">
+        {/* View all reviews links */}
+        <div className="text-center mt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
             href="https://www.avito.ru/krasnodar/predlozheniya_uslug/studiya_zvukozapisi_2612159526"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center space-x-2 text-white/70 hover:text-white transition-colors">
             <span>Посмотреть все отзывы на Avito</span>
+            <DynamicIcon name="ExternalLink" className="w-4 h-4" />
+          </a>
+          <span className="hidden sm:inline text-white/40">•</span>
+          <a
+            href="https://yandex.ru/maps/org/203675977435/reviews"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center space-x-2 text-white/70 hover:text-white transition-colors">
+            <span>Посмотреть все отзывы на Яндекс.Картах</span>
             <DynamicIcon name="ExternalLink" className="w-4 h-4" />
           </a>
         </div>

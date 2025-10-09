@@ -11,6 +11,7 @@ export const siteConfig: SiteConfig = {
       street: "ул. Ставропольская, 107/10",
       city: "Краснодар",
       metro: "Карасунский округ",
+      url: "https://yandex.com/maps/-/CLFgJT2o",
     },
     location: {
       coordinates: [39.020625, 45.024109] as [number, number], // [longitude, latitude]

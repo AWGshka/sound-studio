@@ -3,8 +3,9 @@ import Script from "next/script";
 import type { Metadata } from "next";
 import { siteConfig } from "@/config/site";
 import { Analytics } from "@vercel/analytics/next";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { YandexMetrics } from "@/components/YandexMetrics";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -73,7 +74,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="ru">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased relative min-h-screen bg-black`}>
+        <YandexMetrics />
         <Script src="https://api-maps.yandex.ru/v3/?apikey=12431c91-f332-47dc-b491-87a5de79c3f8&lang=ru_RU" strategy="beforeInteractive" />
+
         {/* Global video background */}
         <div className="fixed inset-0 z-0">
           <video autoPlay loop muted playsInline className="absolute inset-0 w-full h-full object-cover" style={{ opacity: 0.4 }}>
@@ -84,6 +87,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
 
         {/* Content */}
         <div className="relative z-10">{children}</div>
+
         <Analytics />
         <SpeedInsights />
       </body>

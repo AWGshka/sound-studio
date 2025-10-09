@@ -3,7 +3,6 @@ import { DynamicIcon } from "@/utils";
 
 export const Footer = () => {
   const { studio, services, sections } = siteConfig;
-
   return (
     <footer className="bg-black/60 backdrop-blur-md text-white pt-12 pb-8 border-t border-white/15">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -52,8 +51,17 @@ export const Footer = () => {
                   {studio.contact.email}
                 </a>
               </li>
-              <li className="hover:text-white/70 transition-colors duration-200">{studio.address.street}</li>
-              <li className="hover:text-white/70 transition-colors duration-200">{studio.address.city}</li>
+              <li>
+                <a
+                  href={studio.address.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="cursor-pointer hover:text-white transition-colors hover:translate-x-1 transform inline-block">
+                  {studio.address.street}
+                  <br />
+                  {studio.address.city}
+                </a>
+              </li>
             </ul>
           </div>
 

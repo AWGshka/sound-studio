@@ -1,1 +1,1 @@
-export { useAvitoReviews, type AvitoReview } from "./useAvitoReviews";
+export { useReviews } from "./useReviews";

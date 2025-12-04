@@ -52,7 +52,10 @@ export const Reviews = () => {
           <Card className="p-8 text-center">
             <DynamicIcon name="AlertCircle" className="w-12 h-12 text-white/60 mx-auto mb-4" />
             <p className="text-white/80">{error}</p>
-            <button onClick={() => window.location.reload()} className="mt-4 px-4 py-2 bg-white/20 hover:bg-white/30 text-white rounded-lg transition-colors">
+            <button
+              type="button"
+              onClick={() => window.location.reload()}
+              className="mt-4 px-4 py-2 bg-white/20 hover:bg-white/30 text-white rounded-lg transition-colors">
               Попробовать снова
             </button>
           </Card>

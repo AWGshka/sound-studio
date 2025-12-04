@@ -38,8 +38,8 @@ export const Header = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <button type="button" onClick={() => scrollToSection("home")} className="flex items-center cursor-pointer group">
-            <div className="w-10 h-10 rounded-lg flex items-center justify-center transition-all duration-200 overflow-hidden">
-              <Image src={studio.logo} alt={studio.name} width={40} height={40} priority sizes="40px" className="w-full h-full object-contain" />
+            <div className="w-16 h-16 rounded-lg flex items-center justify-center transition-all duration-200 overflow-hidden">
+              <Image src={studio.logo} alt={studio.name} width={3000} height={3000} priority sizes="3000px" className="w-full h-full object-contain" />
             </div>
             <div className="ml-3 text-left">
               <span className="text-xl font-bold text-white group-hover:text-white/90 transition-colors duration-200">{studio.name}</span>

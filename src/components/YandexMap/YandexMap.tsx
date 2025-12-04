@@ -2,18 +2,18 @@
 
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { ReactifiedModule } from "@yandex/ymaps3-types/reactify/reactify";
 import { siteConfig } from "@/config/site";
+
+import type * as YMaps3 from "@yandex/ymaps3-types";
+import type { ReactifiedModule } from "@yandex/ymaps3-types/reactify/reactify";
 
 declare global {
   interface Window {
-    ymaps3: any;
+    ymaps3: typeof YMaps3;
   }
-
-  var ymaps3: any;
 }
 
-type ReactifiedApi = ReactifiedModule<typeof ymaps3>;
+type ReactifiedApi = ReactifiedModule<typeof window.ymaps3>;
 
 interface YandexMapProps {
   center?: [number, number];
@@ -89,7 +89,7 @@ export const YandexMap = ({ center, zoom, className = "", markers = [] }: Yandex
               <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none">
                 <div className="bg-black/90 text-white px-3 py-2 rounded-lg text-sm whitespace-nowrap backdrop-blur-sm border border-white/20 shadow-xl">
                   <div className="font-semibold">{marker.title}</div>
-                  {marker.content && <div className="text-xs text-gray-300 mt-1" dangerouslySetInnerHTML={{ __html: marker.content }} />}
+                  {marker.content && <div className="text-xs text-gray-300 mt-1">{marker.content} </div>}
                   {/* Tooltip arrow */}
                   <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-2 border-r-2 border-t-4 border-l-transparent border-r-transparent border-t-black/90"></div>
                 </div>

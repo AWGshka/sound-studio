@@ -54,16 +54,7 @@ export const BackgroundVideo = ({ src, className = "", opacity = 0.5 }: Backgrou
 
   return (
     <div className={`absolute inset-0 overflow-hidden background-video ${className}`}>
-      <video
-        ref={videoRef}
-        autoPlay
-        loop
-        muted
-        playsInline
-        disablePictureInPicture
-        className="absolute inset-0 w-full h-full object-cover"
-        style={{ opacity }}
-        aria-hidden="true">
+      <video ref={videoRef} autoPlay loop muted playsInline disablePictureInPicture className="absolute inset-0 w-full h-full object-cover" style={{ opacity }}>
         <source src={src} type="video/mp4" />
         Your browser does not support the video tag.
       </video>

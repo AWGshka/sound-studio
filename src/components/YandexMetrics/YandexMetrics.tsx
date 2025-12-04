@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Script from "next/script";
 
 export function YandexMetrics() {
@@ -25,7 +26,7 @@ export function YandexMetrics() {
       </Script>
       <noscript>
         <div>
-          <img src="https://mc.yandex.ru/watch/104398646" style={{ position: "absolute", left: "-9999px" }} alt="" />
+          <Image width={1} height={1} src="https://mc.yandex.ru/watch/104398646" style={{ position: "absolute", left: "-9999px" }} alt="" />
         </div>
       </noscript>
     </>

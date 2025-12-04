@@ -1,5 +1,7 @@
-import { siteConfig } from "@/config/site";
+import Image from "next/image";
+
 import { DynamicIcon } from "@/utils";
+import { siteConfig } from "@/config/site";
 
 export const Footer = () => {
   const { studio, services, sections } = siteConfig;
@@ -9,8 +11,8 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="group">
             <div className="flex items-center mb-4 group-hover:scale-105 transition-transform duration-200">
-              <div className="w-10 h-10 rounded-lg flex items-center justify-center transition-all duration-200 overflow-hidden">
-                <img src={studio.logo} alt={studio.name} className="w-full h-full object-contain" />
+              <div className="w-16 h-16 rounded-lg flex items-center justify-center transition-all duration-200 overflow-hidden">
+                <Image src={studio.logo} alt={studio.name} width={3000} height={3000} priority sizes="3000px" className="w-full h-full object-contain" />
               </div>
               <div className="ml-3">
                 <span className="text-xl font-bold group-hover:text-white/90 transition-colors duration-200">{studio.name}</span>

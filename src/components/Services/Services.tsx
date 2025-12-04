@@ -1,7 +1,9 @@
-import { Card } from "@/components/Card";
-import { Section } from "@/components/Section";
-import { siteConfig } from "@/config/site";
 import { DynamicIcon } from "@/utils";
+import { Card } from "@/components/Card";
+import { siteConfig } from "@/config/site";
+import { Section } from "@/components/Section";
+
+import type { IconName } from "@/utils";
 
 export const Services = () => {
   const { services, sections } = siteConfig;
@@ -17,7 +19,7 @@ export const Services = () => {
         {services.map((service) => (
           <Card key={service.id} className="p-8 text-center">
             <div className="w-16 h-16 bg-black/60 rounded-full flex items-center justify-center mx-auto mb-6 backdrop-blur-sm border border-white/20">
-              <DynamicIcon name={service.icon as any} className="w-8 h-8 text-white" />
+              <DynamicIcon name={service.icon as IconName} className="w-8 h-8 text-white" />
             </div>
             <h3 className="text-2xl font-bold mb-4 text-white">{service.name}</h3>
             <p className="text-white/80 mb-6">{service.description}</p>

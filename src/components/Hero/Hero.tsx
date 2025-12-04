@@ -1,8 +1,10 @@
 "use client";
 
-import { Button } from "@/components/Button";
-import { siteConfig } from "@/config/site";
 import { DynamicIcon } from "@/utils";
+import { siteConfig } from "@/config/site";
+import { Button } from "@/components/Button";
+
+import type { IconName } from "@/utils";
 
 export const Hero = () => {
   const { hero, studio } = siteConfig;
@@ -49,7 +51,7 @@ export const Hero = () => {
                     className="flex items-start space-x-4 group hover:bg-black/30 rounded-lg p-3 transition-all duration-200"
                     style={{ animationDelay: `${index * 200}ms` }}>
                     <div className="w-12 h-12 bg-black/60 rounded-full flex items-center justify-center transition-colors duration-200 backdrop-blur-sm border border-white/25 group-hover:bg-black/70 flex-shrink-0">
-                      <DynamicIcon name={feature.icon as any} className="w-6 h-6 text-white flex-shrink-0" />
+                      <DynamicIcon name={feature.icon as IconName} className="w-6 h-6 text-white flex-shrink-0" />
                     </div>
                     <div className="flex-1 min-w-0">
                       <h3 className="font-semibold text-white group-hover:text-white/90 transition-colors duration-200">{feature.title}</h3>

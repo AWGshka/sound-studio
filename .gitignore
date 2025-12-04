@@ -12,6 +12,7 @@
 
 # testing
 /coverage
+biome-report.json
 
 # next.js
 /.next/

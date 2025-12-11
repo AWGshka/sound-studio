@@ -115,13 +115,13 @@ export const Contact = () => {
             <h3 className="text-2xl font-bold mb-6 text-white">{sections.contact.mapTitle}</h3>
             <div className="h-96">
               <YandexMap
-                center={studio.location.coordinates}
                 zoom={studio.location.zoom}
+                center={studio.location.coordinates}
                 markers={[
                   {
-                    coordinates: studio.location.coordinates,
                     title: studio.name,
-                    content: `${studio.address.street}<br/>${studio.address.city}<br/>${studio.address.metro}`,
+                    coordinates: studio.location.coordinates,
+                    content: `${studio.address.street}, ${studio.address.city}`,
                   },
                 ]}
                 className="rounded-lg overflow-hidden"
